@@ -95,6 +95,14 @@
       </div>
     </div>
 
-    <script src="app.js"></script>
+    <script>
+      // inject app.js with timestamp to avoid cached JS on GitHub Pages
+      (function(){
+        var s = document.createElement('script');
+        s.src = 'app.js?v=' + Date.now();
+        s.defer = true;
+        document.body.appendChild(s);
+      })();
+    </script>
   </body>
 </html>

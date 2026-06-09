@@ -1,5 +1,6 @@
 // Quiz app with updated layout
-const DATA_URL = 'questions.json';
+// Append timestamp to questions fetch URL to avoid stale caching on GitHub Pages
+const DATA_URL = 'questions.json?v=' + new Date().getTime();
 
 let questions = [];
 let current = 0;
@@ -20,7 +21,8 @@ const restartBtn = document.getElementById('restartBtn');
 const questionsGrid = document.getElementById('questions-grid');
 
 function fetchQuestions(){
-  return fetch(DATA_URL).then(r=>r.json());
+  // use no-store to ask browser not to use cached response where supported
+  return fetch(DATA_URL, { cache: 'no-store' }).then(r=>r.json());
 }
 
 function updateGridButtons(){
