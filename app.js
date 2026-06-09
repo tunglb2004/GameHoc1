@@ -133,6 +133,8 @@ function render(){
       el.classList.add('selected');
       updateGridButtons();
       if(current === questions.length-1) submitBtn.style.display = 'inline-block';
+      // Immediate feedback: mark options correct/wrong and show explanation
+      showImmediateFeedback(q, i, opts);
     });
 
     const letter = document.createElement('div');
@@ -151,11 +153,76 @@ function render(){
   });
 
   container.appendChild(opts);
+  // Feedback area (hidden until selection)
+  const feedback = document.createElement('div');
+  feedback.className = 'immediate-feedback';
+  feedback.style.marginTop = '12px';
+  container.appendChild(feedback);
   quizArea.appendChild(container);
 
   prevBtn.disabled = current === 0;
   nextBtn.disabled = current === questions.length-1;
   submitBtn.style.display = current === questions.length-1 ? 'inline-block' : 'none';
+}
+
+function showImmediateFeedback(q, givenIndex, optsContainer){
+  // Remove existing feedback highlights
+  const optionEls = optsContainer.querySelectorAll('.option');
+  optionEls.forEach((el, idx)=>{
+    el.classList.remove('correct','incorrect');
+    // append note area removal if exists
+    const note = el.querySelector('.feedback-note');
+    if(note) note.remove();
+  });
+
+  // Mark correct option
+  const correctIdx = q.answer;
+  if(optionEls[correctIdx]) optionEls[correctIdx].classList.add('correct');
+
+  // If user selected wrong option, mark it
+  if(givenIndex != null && givenIndex !== correctIdx){
+    if(optionEls[givenIndex]) optionEls[givenIndex].classList.add('incorrect');
+  }
+
+  // Build explanation text
+  let explanationText = '';
+  if(q.explanation){
+    explanationText = q.explanation;
+  } else {
+    // Default explanation: show which letter is correct and the text
+    const letter = String.fromCharCode(65 + correctIdx);
+    const ansText = q.options[correctIdx] ? q.options[correctIdx].text : '';
+    explanationText = `Đáp án đúng: ${letter}. ${ansText}`;
+  }
+
+  // Show a shared feedback area beneath options
+  const shared = optsContainer.parentElement.querySelector('.immediate-feedback');
+  if(shared){
+    shared.innerHTML = '';
+    const box = document.createElement('div');
+    box.style.padding = '10px';
+    box.style.border = '1px solid #e0e0e0';
+    box.style.borderRadius = '8px';
+    box.style.background = '#fff8e1';
+
+    const title = document.createElement('div');
+    title.style.fontWeight = 'bold';
+    title.style.marginBottom = '6px';
+    if(givenIndex === correctIdx){
+      title.textContent = 'Bạn chọn đúng ✔️';
+      title.style.color = 'var(--success)';
+    } else {
+      title.textContent = 'Bạn chọn sai ✖️';
+      title.style.color = 'var(--error)';
+    }
+
+    const text = document.createElement('div');
+    text.innerHTML = explanationText;
+
+    box.appendChild(title);
+    box.appendChild(text);
+    shared.appendChild(box);
+  }
 }
 
 function showResult(){

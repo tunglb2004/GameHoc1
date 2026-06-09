@@ -217,6 +217,19 @@ body{
   line-height:1.3;
 }
 
+/* Immediate feedback styling */
+.option.correct{
+  border-color:var(--success);
+  background:#e8f5e9;
+}
+.option.incorrect{
+  border-color:var(--error);
+  background:#ffebee;
+}
+.immediate-feedback{
+  margin-top:12px;
+}
+
 .actions{
   display:flex;
   gap:8px;

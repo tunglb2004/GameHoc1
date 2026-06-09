@@ -15,7 +15,7 @@
         "text": "Bắt đầu bằng //"
       }
     ],
-    "answer": 3
+    "answer": 0
   },
   {
     "question": "2. Lỗi đầu tiên của chương trình sau xuất hiện ở dòng nào? #include <iostream> using namespace std; int main() { int 1x = 5; cout << 1x; return 0; }",
@@ -33,7 +33,7 @@
         "text": "using namespace std;"
       }
     ],
-    "answer": 2
+    "answer": 0
   },
   {
     "question": "3. Dòng lệnh nào sau đây dùng để xuất chuỗi “Vu Thi Vui”?",
@@ -51,7 +51,7 @@
         "text": "output << Vu Thi Vui;"
       }
     ],
-    "answer": 1
+    "answer": 0
   },
   {
     "question": "4. Kí tự nào dùng để kết thúc một câu lệnh?",
@@ -69,7 +69,7 @@
         "text": ";"
       }
     ],
-    "answer": 1
+    "answer": 0
   },
   {
     "question": "5. Đâu là từ khóa của C++?",
@@ -105,7 +105,7 @@
         "text": "0"
       }
     ],
-    "answer": 2
+    "answer": 0
   },
   {
     "question": "7. Mục đích của bước biên dịch chương trình là gì?",
@@ -141,7 +141,7 @@
         "text": "Báo lỗi."
       }
     ],
-    "answer": 2
+    "answer": 0
   },
   {
     "question": "9. Để xuất dữ liệu với 2 chữ số sau dấu phẩy trong C++, cần sử dụng thư viện nào?",
@@ -159,7 +159,7 @@
         "text": "iomanip"
       }
     ],
-    "answer": 1
+    "answer": 0
   },
   {
     "question": "10. Đoạn mã sau thực hiện công việc gì? #include <iostream> #include <iomanip> using namespace std; int main() { cout << setw(5) << 12; return 0; }",
@@ -195,7 +195,7 @@
         "text": "Báo lỗi"
       }
     ],
-    "answer": 1
+    "answer": 0
   },
   {
     "question": "12. Kết quả hiển thị trên màn hình của đoạn chương trình sau là gì? #include <iostream> #include <iomanip> using namespace std; int main() { cout << setfill('*') << setw(5) << 9; return 0; }",
@@ -339,7 +339,7 @@
         "text": "5"
       }
     ],
-    "answer": 3
+    "answer": 0
   },
   {
     "question": "20. Biểu thức nào sau đây là biểu thức logic?",
@@ -555,7 +555,7 @@
         "text": "if(dieu_kien);"
       }
     ],
-    "answer": 2
+    "answer": 0
   },
   {
     "question": "34. Đâu là vòng lặp for đúng cú pháp?",
@@ -1185,7 +1185,7 @@
         "text": "%"
       }
     ],
-    "answer": 2
+    "answer": 0
   },
   {
     "question": "69. Khai báo nào sau đây là đúng để tạo một con trỏ kiểu float?",
@@ -1239,7 +1239,7 @@
         "text": "Không có lỗi."
       }
     ],
-    "answer": 2
+    "answer": 0
   },
   {
     "question": "72. Kết quả được in ra màn hình là gì? int* p = new int(25); delete p; cout << *p;",
@@ -1959,7 +1959,7 @@
         "text": "Struct"
       }
     ],
-    "answer": 3
+    "answer": 0
   },
   {
     "question": "112. Cho đoạn chương trình: Đoạn chương trình sau bị lỗi ở dòng nào?",
