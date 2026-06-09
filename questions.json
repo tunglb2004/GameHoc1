@@ -69,7 +69,7 @@
         "text": ";"
       }
     ],
-    "answer": 1
+    "answer": 3
   },
   {
     "question": "5. Đâu là từ khóa của C++?",
@@ -105,7 +105,7 @@
         "text": "0"
       }
     ],
-    "answer": 2
+    "answer": 0
   },
   {
     "question": "7. Mục đích của bước biên dịch chương trình là gì?",
@@ -123,7 +123,7 @@
         "text": "In kết quả ra màn hình."
       }
     ],
-    "answer": 0
+    "answer": 2
   },
   {
     "question": "8. Kết quả của chương trình sau là gì? #include <iostream> using namespace std; int main() { char c = 'A'; cout << c; return 0; }",
@@ -159,7 +159,7 @@
         "text": "iomanip"
       }
     ],
-    "answer": 1
+    "answer": 3
   },
   {
     "question": "10. Đoạn mã sau thực hiện công việc gì? #include <iostream> #include <iomanip> using namespace std; int main() { cout << setw(5) << 12; return 0; }",
@@ -213,7 +213,7 @@
         "text": "*9*9*"
       }
     ],
-    "answer": 0
+    "answer": 1
   },
   {
     "question": "13. Đoạn chương trình sau thực hiện công việc gì? #include <iostream> using namespace std; int main() { int a = 7, b = 11, t; t = a; a = b; b = t; cout << a << \"-\" << b; return 0; }",
@@ -249,7 +249,7 @@
         "text": "Kiểm tra mã sinh viên hợp lệ."
       }
     ],
-    "answer": 0
+    "answer": 1
   },
   {
     "question": "15. Kết quả hiển thị của đoạn chương trình sau là gì nếu nhập: SV01 Nguyen Hai Anh 8.456 Chương trình:",
@@ -267,7 +267,7 @@
         "text": "SV01 - Nguyen Hai Anh - 9"
       }
     ],
-    "answer": 0
+    "answer": 2
   },
   {
     "question": "16. Cho đoạn chương trình sau: #include <iostream> using namespace std; int main() { string maNV, hoTen; float luong; cin >> maNV;cin.ignore(); getline(cin, hoTen); cin >> luong; cout << maNV << \" \" << hoten << \" \" << luong; return 0; } Chương trình báo lỗi dòng nào?",
@@ -285,7 +285,7 @@
         "text": "Dòng cout << maNV << \" \" << hoten << \" \" << luong;"
       }
     ],
-    "answer": 0
+    "answer": 3
   },
   {
     "question": "17. Khai báo hằng số đúng là?",
@@ -357,7 +357,7 @@
         "text": "a > b"
       }
     ],
-    "answer": 0
+    "answer": 3
   },
   {
     "question": "21. Trong C++, chuỗi kí tự (string literal) được đặt trong cặp dấu nào?",
@@ -375,7 +375,7 @@
         "text": "[ ]"
       }
     ],
-    "answer": 0
+    "answer": 1
   },
   {
     "question": "22. Kiểu dữ liệu nào phù hợp nhất để lưu điểm trung bình (có phần thập phân)?",
@@ -393,7 +393,7 @@
         "text": "bool"
       }
     ],
-    "answer": 0
+    "answer": 1
   },
   {
     "question": "23. Trong C++, giá trị logic của biểu thức sau là gì? (5 > 3) && (2 < 1)",
@@ -411,7 +411,7 @@
         "text": "Không xác định."
       }
     ],
-    "answer": 0
+    "answer": 2
   },
   {
     "question": "24. Kết quả của chương trình là bao nhiêu? float a = 7.2; cout << a % 2;",
@@ -429,7 +429,7 @@
         "text": "3"
       }
     ],
-    "answer": 0
+    "answer": 2
   },
   {
     "question": "27. Giá trị của biểu thức (int)pow(3, 3) - 10 / 4 là bao nhiêu?",
@@ -465,7 +465,7 @@
         "text": "9"
       }
     ],
-    "answer": 0
+    "answer": 1
   },
   {
     "question": "29. Chương trình sau không biên dịch được. Lỗi nằm ở dòng nào? 1. #include <iostream> 2. using namespace std; 3. int main() { 4. int x = 5; 5. x++; 6. (x+1) = 10; 7. cout << x; 8. }",
@@ -483,7 +483,7 @@
         "text": "Không sai dòng nào."
       }
     ],
-    "answer": 0
+    "answer": 1
   },
   {
     "question": "30. Đoạn chương trình sau đây sai ở dòng nào? 1. #include <iostream> 2. using namespace std; 3. int main() { 4. float x = 5.5; 5. int y = x; 6. cout << y; 7. return 0; 8. }",
@@ -501,7 +501,7 @@
         "text": "Không có dòng sai."
       }
     ],
-    "answer": 0
+    "answer": 3
   },
   {
     "question": "31. Đoạn chương trình sau thực hiện công việc gì? int a = 4, b = 9; int t = (a > b ? b : a); cout << t;",
@@ -519,7 +519,7 @@
         "text": "In ra số nhỏ hơn trong 2 số a, b."
       }
     ],
-    "answer": 0
+    "answer": 3
   },
   {
     "question": "32. Xét đoạn chương trình sau: #include <iostream> using namespace std; int x = 1; int main() { int x = 2; { int x = 3; } cout << x; return 0; } Kết quả in ra?",
@@ -555,7 +555,7 @@
         "text": "if(dieu_kien);"
       }
     ],
-    "answer": 2
+    "answer": 0
   },
   {
     "question": "34. Đâu là vòng lặp for đúng cú pháp?",
@@ -627,7 +627,7 @@
         "text": "Dừng toàn bộ chương trình."
       }
     ],
-    "answer": 0
+    "answer": 2
   },
   {
     "question": "38. Ý nghĩa của vòng lặp while là gì?",
@@ -645,7 +645,7 @@
         "text": "Lặp theo số lần cố định."
       }
     ],
-    "answer": 0
+    "answer": 2
   },
   {
     "question": "39. Cho đoạn chương trình sau, hãy cho biết khi chương trình thực thi, kết quả in ra là gì? int sum = 0; for (int i = 1; i <= 10; i++) sum += i; cout << sum;",
@@ -663,7 +663,7 @@
         "text": "12345678910"
       }
     ],
-    "answer": 0
+    "answer": 2
   },
   {
     "question": "40. Cho đoạn chương trình sau, nếu nhập diem = 8.3 thì chương trình sẽ in ra gì? float diem; cout << \"Nhap diem: \"; cin >> diem; if (diem >= 8) cout << \"Gioi\"; else if (diem >= 5) cout << \"Trung binh\"; else cout << \"Yeu\";",
@@ -681,7 +681,7 @@
         "text": "Không in gì."
       }
     ],
-    "answer": 0
+    "answer": 2
   },
   {
     "question": "41. Hãy cho biết kết quả của đoạn chương trình sau là gì?",
@@ -699,7 +699,7 @@
         "text": "13"
       }
     ],
-    "answer": 0
+    "answer": 2
   },
   {
     "question": "42. Cho đoạn chương trình sau, hãy cho biết vòng lặp do …while sẽ kết thúc khi nào?",
@@ -717,7 +717,7 @@
         "text": "Vòng lặp vô hạn."
       }
     ],
-    "answer": 0
+    "answer": 1
   },
   {
     "question": "43. Cho đoạn chương trình sau, nếu người dùng nhập lần lượt các giá trị: 0, -4, 7 thì kết quả cuối cùng in ra là gì?",
@@ -735,7 +735,7 @@
         "text": "Ban da nhap: 7"
       }
     ],
-    "answer": 0
+    "answer": 3
   },
   {
     "question": "44. Đoạn mã sau cho kết quả bao nhiêu? #include <iostream> using namespace std; int main() { int count = 0; for(int i = 0; i < 10; ) { i += 2; count++; if(i == 6) break; } cout << count; }",
@@ -753,7 +753,7 @@
         "text": "3"
       }
     ],
-    "answer": 0
+    "answer": 3
   },
   {
     "question": "45. Đoạn chương trình dưới đây thực hiện điều gì? #include <iostream> using namespace std; int main() { int n = 1234, count = 0; while(n > 0) { count++; n /= 10; } cout << count; }",
@@ -771,7 +771,7 @@
         "text": "Kiểm tra số nguyên tố."
       }
     ],
-    "answer": 0
+    "answer": 2
   },
   {
     "question": "46. Đoạn chương trình sau lỗi ở dòng bao nhiêu? 1. #include <iostream> 2. using namespace std; 3. int main() { 4. int x = 1; 5. switch(x) { 6. case 1: 7. int y = 5; 8. case 2: 9. cout << y; 10. } 11. }",
@@ -789,7 +789,7 @@
         "text": "Dòng 8"
       }
     ],
-    "answer": 0
+    "answer": 3
   },
   {
     "question": "47. Chương trình sau in ra bao nhiêu kí tự #? #include <iostream> using namespace std; int main() { for(int i = 0; i < 3; i++) { for(int j = 0; j < 4; j++) { if(j == 2) continue; cout << \"#\"; } } }",
@@ -807,7 +807,7 @@
         "text": "8"
       }
     ],
-    "answer": 0
+    "answer": 1
   },
   {
     "question": "48. Ý nghĩa của đoạn chương trình sau là gì? #include <iostream> using namespace std; int main() { int n = 13579; while(n > 0) { if((n % 10) % 2 == 0) { cout << \"YES\"; return 0; } n /= 10; } cout << \"NO\"; }",
@@ -825,7 +825,7 @@
         "text": "Kiểm tra số nguyên tố."
       }
     ],
-    "answer": 0
+    "answer": 1
   },
   {
     "question": "49. Phát biểu nào đúng về cách lưu trữ phần tử mảng?",
@@ -843,7 +843,7 @@
         "text": "Mỗi phần tử có kiểu dữ liệu khác nhau."
       }
     ],
-    "answer": 0
+    "answer": 2
   },
   {
     "question": "50. Cho khai báo: int a[] = {1,2,3,4}; Số lượng phần tử của mảng được xác định như thế nào?",
@@ -1959,7 +1959,7 @@
         "text": "Struct"
       }
     ],
-    "answer": 3
+    "answer": 0
   },
   {
     "question": "112. Cho đoạn chương trình: Đoạn chương trình sau bị lỗi ở dòng nào?",
@@ -1977,7 +1977,7 @@
         "text": "Dòng 15, 16, 17"
       }
     ],
-    "answer": 0
+    "answer": 3
   },
   {
     "question": "120. Đoạn mã sau đây thực hiện công việc gì? ifstream file(\"test.txt\"); file.seekg(0, ios::end); int size = file.tellg(); file.seekg(0, ios::beg); cout << \"File size: \" << size << \" bytes\";",
@@ -2013,7 +2013,7 @@
         "text": "20"
       }
     ],
-    "answer": 0
+    "answer": 3
   },
   {
     "question": "125. Cho đoạn chương trình void tachPhongBan(NhanVien ds[], int n) { for (int i = 0; i < n; i++) { char tenFile[50]; strcpy(tenFile, ds[i].phongBan); strcat(tenFile, \".dat\"); ofstream f(tenFile, ios::binary | ios::app); f.write((char*)&ds[i], sizeof(NhanVien)); f.close(); } } Nếu có 3 nhân viên thuộc 3 phòng ban khác nhau, số file được tạo là?",
@@ -2031,7 +2031,7 @@
         "text": "3 file khác nhau."
       }
     ],
-    "answer": 0
+    "answer": 3
   },
   {
     "question": "126. Xét đoạn chương trình sau: float maxLuong = tinhLuong(ds[0]); for (int i = 1; i < n; i++) { if (tinhLuong(ds[i]) > maxLuong) { maxLuong = tinhLuong(ds[i]); } } ofstream f(\"LuongMax.dat\", ios::binary); // VỊ TRÍ X for (int i = 0; i < n; i++) { if (tinhLuong(ds[i]) == maxLuong) { f.write((char*)&ds[i], sizeof(NhanVien)); } } f.close(); Để tránh lỗi nghiêm trọng khi ghi file hoặc lỗi crash bộ nhớ trong trường hợp không mở được file (ví dụ ổ đĩa đầy hoặc không có quyền ghi), ta cần chèn đoạn mã kiểm tra if (!f) { ... } vào vị trí nào tốt nhất?",
@@ -2085,7 +2085,7 @@
         "text": "2 5 11 17 19 23"
       }
     ],
-    "answer": 0
+    "answer": 3
   },
   {
     "question": "129. So với Procedural Programming (lập trình hướng thủ tục), ưu điểm nổi bật của Object-Oriented Programming (lập trình hướng đối tượng) là gì?",
@@ -2103,7 +2103,7 @@
         "text": "Không hỗ trợ chia nhỏ chương trình thành các phần độc lập."
       }
     ],
-    "answer": 0
+    "answer": 1
   },
   {
     "question": "130. Nếu không khai báo phạm vi truy xuất trong lớp của C++, mặc định sẽ là gì?",
@@ -2121,7 +2121,7 @@
         "text": "static"
       }
     ],
-    "answer": 0
+    "answer": 2
   },
   {
     "question": "131. Câu lệnh nào khai báo mảng đối tượng kiểu SinhVien đúng?",
@@ -2139,7 +2139,7 @@
         "text": "SinhVien ds[10];"
       }
     ],
-    "answer": 0
+    "answer": 3
   },
   {
     "question": "132. Xét đoạn chương trình sau #include <iostream> using namespace std; class MayIn { public: MayIn() { cout << \"ON\"; } }; int main() { MayIn m1, m2; } Kết quả thực hiện là?",
@@ -2157,7 +2157,7 @@
         "text": "ONON"
       }
     ],
-    "answer": 0
+    "answer": 3
   },
   {
     "question": "133. Ý nghĩa của toán tử phạm vi :: trong C++ là gì?",
@@ -2175,7 +2175,7 @@
         "text": "Dùng để cấp phát bộ nhớ."
       }
     ],
-    "answer": 0
+    "answer": 2
   },
   {
     "question": "134. Phát biểu nào đúng nhất về hàm tạo mặc định do trình biên dịch sinh ra?",
@@ -2211,7 +2211,7 @@
         "text": "25000"
       }
     ],
-    "answer": 0
+    "answer": 3
   },
   {
     "question": "136. Xét đoạn chương trình sau: Kết quả in ra là bao nhiêu?",
@@ -2247,7 +2247,7 @@
         "text": "sv->setName(Pham Thi Thuy Van);"
       }
     ],
-    "answer": 0
+    "answer": 2
   },
   {
     "question": "138. Kết quả thực hiện đoạn chương trình là?",
@@ -2283,7 +2283,7 @@
         "text": "Không có lỗi."
       }
     ],
-    "answer": 0
+    "answer": 2
   },
   {
     "question": "140. Đoạn chương trình sau thực hiện công việc gì?",
@@ -2301,7 +2301,7 @@
         "text": "Đếm học sinh đạt điểm cao nhất."
       }
     ],
-    "answer": 0
+    "answer": 1
   },
   {
     "question": "141. Đoạn chương trình sau thực hiện công việc gì?",
@@ -2319,7 +2319,7 @@
         "text": "Sắp xếp sinh viên theo điểm"
       }
     ],
-    "answer": 0
+    "answer": 2
   },
   {
     "question": "142. Xét đoạn chương trình sau: Kết quả in ra là bao nhiêu?",
@@ -2337,7 +2337,7 @@
         "text": "800"
       }
     ],
-    "answer": 0
+    "answer": 3
   },
   {
     "question": "143. Xét đoạn chương trình sau: Kết quả in ra là bao nhiêu?",
@@ -2355,7 +2355,7 @@
         "text": "Keo lac---Banh socola---Hop mau"
       }
     ],
-    "answer": 0
+    "answer": 2
   },
   {
     "question": "144. Anh (Chị) hãy cho biết đoạn chương trình sau bị lỗi biên dịch ở dòng nào và do nguyên nhân gì? 1. class CRect { 2. int *height, *width; 3. public: 4. CRect (int, int); 5. ~CRect (); 6. int DT (void) { return (height * width); } 7. }; 8. CRect::CRect (int a, int b) { 9. height = new int; 10. width = new int; 11. *height = a; 12. *width = b; 13. } 14. CRect::~CRect() { 15. delete height; 16. delete width; 17. } 18. int main() { 19. CRect cn1 (3, 4); 20. cout << cn1.DT(); 21. return 0; 22. }",
@@ -2373,7 +2373,7 @@
         "text": "Chương trình hoàn toàn không có lỗi."
       }
     ],
-    "answer": 0
+    "answer": 2
   },
   {
     "question": "145. Trong C++, nếu một hàm được khai báo friend trong nhiều lớp khác nhau thì điều gì đúng?",
@@ -2409,7 +2409,7 @@
         "text": "Tất cả thành viên của lớp bạn đều có quyền truy cập private/protected của lớp cấp quyền."
       }
     ],
-    "answer": 0
+    "answer": 3
   },
   {
     "question": "147. Trong C++, thành viên hằng (const member) của lớp có đặc điểm gì?",
@@ -2463,7 +2463,7 @@
         "text": "Hàm dieuChinhSoDu truy cập được soDu vì toàn bộ lớp NhanVienNganHang là friend của"
       }
     ],
-    "answer": 0
+    "answer": 3
   },
   {
     "question": "150. Cho đoạn chương trình sau: #include <iostream> #include <string> using namespace std; class TaiKhoanNganHang { private: string soTaiKhoan; double soDu; public: TaiKhoanNganHang(string stk, double tien) : soTaiKhoan(stk), soDu(tien) {} void hienThiThongTin() const { cout << \"Thong tin tai khoan\"; } }; Hàm hienThiThongTin()?",
@@ -2481,7 +2481,7 @@
         "text": "Không được phép thay đổi dữ liệu thành viên của đối tượng."
       }
     ],
-    "answer": 0
+    "answer": 3
   },
   {
     "question": "151. Cho đoạn chương trình sau: #include <iostream> #include <string> using namespace std; class TaiKhoanNganHang { private: string soTaiKhoan; string chuTaiKhoan; double soDu; public: TaiKhoanNganHang(string stk = \"0000\", string ten = \"KhachHang\", double tien = 5) : soTaiKhoan(stk), chuTaiKhoan(ten), soDu(tien) {} friend void dieuChinhSoDu(TaiKhoanNganHang&); }; void dieuChinhSoDu(TaiKhoanNganHang &tk) { tk.soDu = 20; } Sau khi thực hiện: TaiKhoanNganHang tk(\"123456\", \"Nguyen Van A\", 5); dieuChinhSoDu(tk); Giá trị của soDu là?",
@@ -2499,7 +2499,7 @@
         "text": "20"
       }
     ],
-    "answer": 0
+    "answer": 3
   },
   {
     "question": "152. Cho đoạn mã: #include <iostream> using namespace std; class NhanVien { private: string maNV, hoTen, phongBan; static int dem; public: NhanVien() { dem++; } static int getDem() { return dem; } }; int NhanVien::dem = 0; int main() { NhanVien a, b, c; cout << NhanVien::getDem(); } Kết quả là?",
@@ -2517,7 +2517,7 @@
         "text": "Lỗi."
       }
     ],
-    "answer": 0
+    "answer": 1
   },
   {
     "question": "153. Cho đoạn chương trình: Kết quả của chương trình là?",
@@ -2535,7 +2535,7 @@
         "text": "Lỗi biên dịch."
       }
     ],
-    "answer": 0
+    "answer": 2
   },
   {
     "question": "154. Xét đoạn chương trình sau: Đoạn chương trình trên thực hiện chức năng gì?",
@@ -2553,7 +2553,7 @@
         "text": "Cập nhật và tăng lương cho nhân viên thông qua toán tử xuất dữ liệu."
       }
     ],
-    "answer": 0
+    "answer": 2
   },
   {
     "question": "155. Cho đoạn chương trình sau: Kết quả thực hiện chương trình là?",
@@ -2589,7 +2589,7 @@
         "text": "Không có lỗi."
       }
     ],
-    "answer": 0
+    "answer": 2
   },
   {
     "question": "157. Từ khóa dùng để kế thừa lớp là?",
@@ -2679,7 +2679,7 @@
         "text": "Tùy trình biên dịch quyết định."
       }
     ],
-    "answer": 0
+    "answer": 2
   },
   {
     "question": "162. Khai báo nào đúng về lớp cơ sở ảo?",
@@ -2697,7 +2697,7 @@
         "text": "class B : A virtual public {};"
       }
     ],
-    "answer": 0
+    "answer": 2
   },
   {
     "question": "163. Trong hệ thống quản lý xe: class PhuongTien { public: string maPT; int namSX; }; class OTo : private PhuongTien { public: string hangXe; }; Phát biểu nào sau đây là đúng?",
@@ -2715,7 +2715,7 @@
         "text": "Không thể truy cập trực tiếp maPT qua đối tượng OTo"
       }
     ],
-    "answer": 0
+    "answer": 3
   },
   {
     "question": "164. Trong hệ thống bán hàng: class SanPham { protected: string maSP; double gia; }; class DienThoai : public SanPham { public: void set(){ maSP = \"DT01\"; } }; Phát biểu nào sau đây là đúng?",
@@ -2733,7 +2733,7 @@
         "text": "Không thể kế thừa SanPham"
       }
     ],
-    "answer": 0
+    "answer": 1
   },
   {
     "question": "165. Đoạn chương trình sau thực hiện chức năng gì?",
@@ -2751,7 +2751,7 @@
         "text": "Tìm kiếm đơn hàng theo mã đơn trong danh sách."
       }
     ],
-    "answer": 0
+    "answer": 3
   },
   {
     "question": "166. Đoạn chương trình sau thực hiện chức năng gì?",
@@ -2769,7 +2769,7 @@
         "text": "Sắp xếp các đơn hàng trong danh sách."
       }
     ],
-    "answer": 0
+    "answer": 2
   },
   {
     "question": "167. Chương trình sau in ra kết quả gì?",
@@ -2823,7 +2823,7 @@
         "text": "Huy Offline"
       }
     ],
-    "answer": 0
+    "answer": 2
   },
   {
     "question": "170. Xét đoạn chương trình sau: Nguyên nhân khiến chương trình không gọi được hàm của lớp dẫn xuất là?",
@@ -2841,7 +2841,7 @@
         "text": "Dòng 1"
       }
     ],
-    "answer": 0
+    "answer": 1
   },
   {
     "question": "171. Xét đoạn chương trình sau: Chương trình báo lỗi dòng nào?",
@@ -2859,7 +2859,7 @@
         "text": "Dòng 25"
       }
     ],
-    "answer": 0
+    "answer": 3
   },
   {
     "question": "172. Xét đoạn chương trình sau: Kết quả thực hiện chương trình là?",
@@ -2895,7 +2895,7 @@
         "text": "Khả năng bảo vệ dữ liệu."
       }
     ],
-    "answer": 0
+    "answer": 2
   },
   {
     "question": "174. Ý nghĩa quan trọng nhất của lớp trừu tượng trong thiết kế phần mềm là gì?",
@@ -2913,7 +2913,7 @@
         "text": "Tăng tốc độ biên dịch chương trình."
       }
     ],
-    "answer": 0
+    "answer": 2
   },
   {
     "question": "175. Một lớp cơ sở khai báo hàm draw() là hàm ảo. Nhiều lớp dẫn xuất cài đặt lại hàm này. Nếu bỏ từ khóa virtual khỏi lớp cơ sở, ảnh hưởng lớn nhất là gì?",
@@ -2931,7 +2931,7 @@
         "text": "Hàm draw() trở thành hàm thuần ảo."
       }
     ],
-    "answer": 0
+    "answer": 1
   },
   {
     "question": "178. Xét đoạn chương trình sau: class Product{ public: virtual double price() = 0; }; class Laptop : public Product{ public: double price(){ return 1500; } }; Phát biểu nào đúng?",
@@ -2985,7 +2985,7 @@
         "text": "Dog d;"
       }
     ],
-    "answer": 0
+    "answer": 3
   },
   {
     "question": "181. Xét đoạn chương trình sau: Kết quả hiển thị là gì?",
@@ -3039,7 +3039,7 @@
         "text": "Vì trình biên dịch sinh ra các phiên bản hàm/ lớp cụ thể cho từng kiểu dữ liệu khi biên dịch."
       }
     ],
-    "answer": 0
+    "answer": 3
   },
   {
     "question": "186. Sự khác nhau quan trọng nhất giữa template và nạp chồng hàm (function overloading) là gì?",
@@ -3093,7 +3093,7 @@
         "text": "Exception cho phép tách biệt luồng xử lý lỗi khỏi luồng logic chính, giúp chương trình xử lý lỗi có"
       }
     ],
-    "answer": 0
+    "answer": 3
   },
   {
     "question": "191. Xét đoạn chương trình sau: #include <iostream> using namespace std; template <typename T> T func(T a, T b){ return a > b ? a : b; } int main(){ cout << func(2, 3.5); } Kết quả khi biên dịch chương trình là gì?",
@@ -3147,7 +3147,7 @@
         "text": "900000"
       }
     ],
-    "answer": 0
+    "answer": 1
   },
   {
     "question": "194. Xét đoạn chương trình sau: #include <iostream> using namespace std; void kiemTraRutTien(double soTienRut){ try{ if((int)soTienRut % 50000 != 0) throw \"Sai menh gia\"; } catch(const char* loi){ cout << loi; throw; } } int main() { try{ kiemTraRutTien(125000); } catch(const char* loi){ cout << \" - Giao dich that bai\"; } } Kết quả in ra màn hình là gì?",
@@ -3183,7 +3183,7 @@
         "text": "Không sai dòng nào."
       }
     ],
-    "answer": 0
+    "answer": 3
   },
   {
     "question": "196. Xét đoạn chương trình sau: Kết quả của chương trình là?",
@@ -3201,7 +3201,7 @@
         "text": "Khong tim thay"
       }
     ],
-    "answer": 0
+    "answer": 3
   },
   {
     "question": "197. Xét đoạn chương trình sau: #include <iostream> #include <stdexcept> using namespace std; void ketNoiCSDL() { throw runtime_error(\"Khong the ket noi CSDL\"); } void chuyenTien() { ketNoiCSDL(); cout << \"Chuyen tien thanh cong\\n\"; } int main() { try { chuyenTien(); } catch (const exception& e) { cout << \"Ghi log loi: \" << e.what() << endl; } } Phát biểu nào giải thích đúng nhất lý do sử dụng cơ chế throw và try-catch trong trường hợp này?",
@@ -3219,7 +3219,7 @@
         "text": "Cơ chế try-catch chủ yếu được sử dụng để tăng tốc độ thực thi của chương trình."
       }
     ],
-    "answer": 0
+    "answer": 1
   },
   {
     "question": "198. Xét đoạn chương trình sau: Kết quả của chương trình là?",
@@ -3255,7 +3255,7 @@
         "text": "Chỉ hoạt động với mảng rỗng."
       }
     ],
-    "answer": 0
+    "answer": 2
   },
   {
     "question": "200. Đoạn phát biểu nào dưới đây mô tả đúng cơ chế xử lý ngoại lệ (exception handling) trong C++?",
@@ -3273,6 +3273,6 @@
         "text": "Một chương trình C++ không thể có nhiều khối catch."
       }
     ],
-    "answer": 0
+    "answer": 1
   }
 ]
