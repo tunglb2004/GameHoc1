@@ -1,0 +1,3278 @@
+[
+  {
+    "question": "1. Phát biểu nào đúng về chú thích một dòng lệnh trong C++?",
+    "options": [
+      {
+        "text": "Bắt đầu bằng /*"
+      },
+      {
+        "text": "Đặt trong dấu {}"
+      },
+      {
+        "text": "Bắt đầu bằng #"
+      },
+      {
+        "text": "Bắt đầu bằng //"
+      }
+    ],
+    "answer": 0
+  },
+  {
+    "question": "2. Lỗi đầu tiên của chương trình sau xuất hiện ở dòng nào? #include <iostream> using namespace std; int main() { int 1x = 5; cout << 1x; return 0; }",
+    "options": [
+      {
+        "text": "cout << 1x;"
+      },
+      {
+        "text": "return 0;"
+      },
+      {
+        "text": "int 1x = 5;"
+      },
+      {
+        "text": "using namespace std;"
+      }
+    ],
+    "answer": 0
+  },
+  {
+    "question": "3. Dòng lệnh nào sau đây dùng để xuất chuỗi “Vu Thi Vui”?",
+    "options": [
+      {
+        "text": "cin >> \"Vu Thi Vui\";"
+      },
+      {
+        "text": "cout << \"Vu Thi Vui\";"
+      },
+      {
+        "text": "print(\"Vu Thi Vui\");"
+      },
+      {
+        "text": "output << Vu Thi Vui;"
+      }
+    ],
+    "answer": 0
+  },
+  {
+    "question": "4. Kí tự nào dùng để kết thúc một câu lệnh?",
+    "options": [
+      {
+        "text": ":"
+      },
+      {
+        "text": "."
+      },
+      {
+        "text": ","
+      },
+      {
+        "text": ";"
+      }
+    ],
+    "answer": 0
+  },
+  {
+    "question": "5. Đâu là từ khóa của C++?",
+    "options": [
+      {
+        "text": "int"
+      },
+      {
+        "text": "number"
+      },
+      {
+        "text": "value"
+      },
+      {
+        "text": "input"
+      }
+    ],
+    "answer": 0
+  },
+  {
+    "question": "6. Kết quả của đoạn chương trình sau là gì? #include <iostream> using namespace std; int main() { int x = 10; int y = 3; cout << x / y; return 0; }",
+    "options": [
+      {
+        "text": "3"
+      },
+      {
+        "text": "3.33"
+      },
+      {
+        "text": "10"
+      },
+      {
+        "text": "0"
+      }
+    ],
+    "answer": 0
+  },
+  {
+    "question": "7. Mục đích của bước biên dịch chương trình là gì?",
+    "options": [
+      {
+        "text": "Chạy trực tiếp chương trình."
+      },
+      {
+        "text": "Nhập dữ liệu cho chương trình."
+      },
+      {
+        "text": "Chuyển mã nguồn thành mã máy."
+      },
+      {
+        "text": "In kết quả ra màn hình."
+      }
+    ],
+    "answer": 0
+  },
+  {
+    "question": "8. Kết quả của chương trình sau là gì? #include <iostream> using namespace std; int main() { char c = 'A'; cout << c; return 0; }",
+    "options": [
+      {
+        "text": "65"
+      },
+      {
+        "text": "'A'"
+      },
+      {
+        "text": "A"
+      },
+      {
+        "text": "Báo lỗi."
+      }
+    ],
+    "answer": 0
+  },
+  {
+    "question": "9. Để xuất dữ liệu với 2 chữ số sau dấu phẩy trong C++, cần sử dụng thư viện nào?",
+    "options": [
+      {
+        "text": "cmath"
+      },
+      {
+        "text": "string"
+      },
+      {
+        "text": "fstream"
+      },
+      {
+        "text": "iomanip"
+      }
+    ],
+    "answer": 0
+  },
+  {
+    "question": "10. Đoạn mã sau thực hiện công việc gì? #include <iostream> #include <iomanip> using namespace std; int main() { cout << setw(5) << 12; return 0; }",
+    "options": [
+      {
+        "text": "In ra 512."
+      },
+      {
+        "text": "Báo lỗi."
+      },
+      {
+        "text": "In 12 năm lần."
+      },
+      {
+        "text": "In số 12 trong vùng rộng 5 kí tự."
+      }
+    ],
+    "answer": 0
+  },
+  {
+    "question": "11. Kết quả của chương trình sau là gì? #include <iostream> using namespace std; int main() { char ch = 66; cout << ch; return 0; }",
+    "options": [
+      {
+        "text": "66"
+      },
+      {
+        "text": "B"
+      },
+      {
+        "text": "b"
+      },
+      {
+        "text": "Báo lỗi"
+      }
+    ],
+    "answer": 0
+  },
+  {
+    "question": "12. Kết quả hiển thị trên màn hình của đoạn chương trình sau là gì? #include <iostream> #include <iomanip> using namespace std; int main() { cout << setfill('*') << setw(5) << 9; return 0; }",
+    "options": [
+      {
+        "text": "99999"
+      },
+      {
+        "text": "****9"
+      },
+      {
+        "text": "9****"
+      },
+      {
+        "text": "*9*9*"
+      }
+    ],
+    "answer": 0
+  },
+  {
+    "question": "13. Đoạn chương trình sau thực hiện công việc gì? #include <iostream> using namespace std; int main() { int a = 7, b = 11, t; t = a; a = b; b = t; cout << a << \"-\" << b; return 0; }",
+    "options": [
+      {
+        "text": "Hoán đổi giá trị của hai biến a và b."
+      },
+      {
+        "text": "Tính tổng hai biến."
+      },
+      {
+        "text": "Sắp xếp tăng dần hai số."
+      },
+      {
+        "text": "Nhập hai số từ bàn phím."
+      }
+    ],
+    "answer": 0
+  },
+  {
+    "question": "14. Đoạn chương trình sau thực hiện công việc gì?",
+    "options": [
+      {
+        "text": "Chỉ nhập mã sinh viên."
+      },
+      {
+        "text": "Nhập và xuất thông tin sinh viên theo dạng cột có định dạng."
+      },
+      {
+        "text": "Tính điểm trung bình của sinh viên."
+      },
+      {
+        "text": "Kiểm tra mã sinh viên hợp lệ."
+      }
+    ],
+    "answer": 0
+  },
+  {
+    "question": "15. Kết quả hiển thị của đoạn chương trình sau là gì nếu nhập: SV01 Nguyen Hai Anh 8.456 Chương trình:",
+    "options": [
+      {
+        "text": "SV01 - Nguyen Hai Anh - 8.456"
+      },
+      {
+        "text": "SV01 Nguyen Hai Anh 8"
+      },
+      {
+        "text": "SV01 - Nguyen Hai Anh - 8.5"
+      },
+      {
+        "text": "SV01 - Nguyen Hai Anh - 9"
+      }
+    ],
+    "answer": 0
+  },
+  {
+    "question": "16. Cho đoạn chương trình sau: #include <iostream> using namespace std; int main() { string maNV, hoTen; float luong; cin >> maNV;cin.ignore(); getline(cin, hoTen); cin >> luong; cout << maNV << \" \" << hoten << \" \" << luong; return 0; } Chương trình báo lỗi dòng nào?",
+    "options": [
+      {
+        "text": "Dòng cin >> maNV;"
+      },
+      {
+        "text": "Dòng float luong;"
+      },
+      {
+        "text": "Dòng int main()"
+      },
+      {
+        "text": "Dòng cout << maNV << \" \" << hoten << \" \" << luong;"
+      }
+    ],
+    "answer": 0
+  },
+  {
+    "question": "17. Khai báo hằng số đúng là?",
+    "options": [
+      {
+        "text": "const int a = 5;"
+      },
+      {
+        "text": "int const a;"
+      },
+      {
+        "text": "int a = const 5;"
+      },
+      {
+        "text": "constant int a = 5;"
+      }
+    ],
+    "answer": 0
+  },
+  {
+    "question": "18. Dòng khai báo biến nào sau đây đúng?",
+    "options": [
+      {
+        "text": "int a = 10;"
+      },
+      {
+        "text": "integer a = 10;"
+      },
+      {
+        "text": "var a = 10;"
+      },
+      {
+        "text": "number a = 10;"
+      }
+    ],
+    "answer": 0
+  },
+  {
+    "question": "19. Biểu thức ép kiểu int(5.9) cho kết quả là gì?",
+    "options": [
+      {
+        "text": "6"
+      },
+      {
+        "text": "5.9"
+      },
+      {
+        "text": "0"
+      },
+      {
+        "text": "5"
+      }
+    ],
+    "answer": 0
+  },
+  {
+    "question": "20. Biểu thức nào sau đây là biểu thức logic?",
+    "options": [
+      {
+        "text": "a + b"
+      },
+      {
+        "text": "a * b"
+      },
+      {
+        "text": "a / b"
+      },
+      {
+        "text": "a > b"
+      }
+    ],
+    "answer": 0
+  },
+  {
+    "question": "21. Trong C++, chuỗi kí tự (string literal) được đặt trong cặp dấu nào?",
+    "options": [
+      {
+        "text": "' '"
+      },
+      {
+        "text": "\" \""
+      },
+      {
+        "text": "{ }"
+      },
+      {
+        "text": "[ ]"
+      }
+    ],
+    "answer": 0
+  },
+  {
+    "question": "22. Kiểu dữ liệu nào phù hợp nhất để lưu điểm trung bình (có phần thập phân)?",
+    "options": [
+      {
+        "text": "int"
+      },
+      {
+        "text": "float"
+      },
+      {
+        "text": "char"
+      },
+      {
+        "text": "bool"
+      }
+    ],
+    "answer": 0
+  },
+  {
+    "question": "23. Trong C++, giá trị logic của biểu thức sau là gì? (5 > 3) && (2 < 1)",
+    "options": [
+      {
+        "text": "true"
+      },
+      {
+        "text": "Biểu thức bị lỗi."
+      },
+      {
+        "text": "false"
+      },
+      {
+        "text": "Không xác định."
+      }
+    ],
+    "answer": 0
+  },
+  {
+    "question": "24. Kết quả của chương trình là bao nhiêu? float a = 7.2; cout << a % 2;",
+    "options": [
+      {
+        "text": "1"
+      },
+      {
+        "text": "1.2"
+      },
+      {
+        "text": "Chương trình báo lỗi."
+      },
+      {
+        "text": "3"
+      }
+    ],
+    "answer": 0
+  },
+  {
+    "question": "27. Giá trị của biểu thức (int)pow(3, 3) - 10 / 4 là bao nhiêu?",
+    "options": [
+      {
+        "text": "25"
+      },
+      {
+        "text": "26"
+      },
+      {
+        "text": "24"
+      },
+      {
+        "text": "23"
+      }
+    ],
+    "answer": 0
+  },
+  {
+    "question": "28. Giá trị của đoạn chương trình là bao nhiêu? int x = 6; int y = --x + 2; cout<<y;",
+    "options": [
+      {
+        "text": "8"
+      },
+      {
+        "text": "7"
+      },
+      {
+        "text": "6"
+      },
+      {
+        "text": "9"
+      }
+    ],
+    "answer": 0
+  },
+  {
+    "question": "29. Chương trình sau không biên dịch được. Lỗi nằm ở dòng nào? 1. #include <iostream> 2. using namespace std; 3. int main() { 4. int x = 5; 5. x++; 6. (x+1) = 10; 7. cout << x; 8. }",
+    "options": [
+      {
+        "text": "Dòng 4"
+      },
+      {
+        "text": "Dòng 6"
+      },
+      {
+        "text": "Dòng 5"
+      },
+      {
+        "text": "Không sai dòng nào."
+      }
+    ],
+    "answer": 0
+  },
+  {
+    "question": "30. Đoạn chương trình sau đây sai ở dòng nào? 1. #include <iostream> 2. using namespace std; 3. int main() { 4. float x = 5.5; 5. int y = x; 6. cout << y; 7. return 0; 8. }",
+    "options": [
+      {
+        "text": "Dòng 4"
+      },
+      {
+        "text": "Dòng 5"
+      },
+      {
+        "text": "Dòng 6"
+      },
+      {
+        "text": "Không có dòng sai."
+      }
+    ],
+    "answer": 0
+  },
+  {
+    "question": "31. Đoạn chương trình sau thực hiện công việc gì? int a = 4, b = 9; int t = (a > b ? b : a); cout << t;",
+    "options": [
+      {
+        "text": "In ra số lớn hơn trong 2 số a, b."
+      },
+      {
+        "text": "In ra giá trị bất kỳ."
+      },
+      {
+        "text": "Chương trình báo lỗi."
+      },
+      {
+        "text": "In ra số nhỏ hơn trong 2 số a, b."
+      }
+    ],
+    "answer": 0
+  },
+  {
+    "question": "32. Xét đoạn chương trình sau: #include <iostream> using namespace std; int x = 1; int main() { int x = 2; { int x = 3; } cout << x; return 0; } Kết quả in ra?",
+    "options": [
+      {
+        "text": "2"
+      },
+      {
+        "text": "1"
+      },
+      {
+        "text": "3"
+      },
+      {
+        "text": "Chương trình báo lỗi vì khai báo x quá nhiều lần."
+      }
+    ],
+    "answer": 0
+  },
+  {
+    "question": "33. Cú pháp đúng của cấu trúc if...else là?",
+    "options": [
+      {
+        "text": "if(dieu_kien)"
+      },
+      {
+        "text": "if(dieu_kien)"
+      },
+      {
+        "text": "if else(dieu_kien)"
+      },
+      {
+        "text": "if(dieu_kien);"
+      }
+    ],
+    "answer": 0
+  },
+  {
+    "question": "34. Đâu là vòng lặp for đúng cú pháp?",
+    "options": [
+      {
+        "text": "for(int i = 1; i <= 10; i++)"
+      },
+      {
+        "text": "for(int i = 1, i <= 10, i++)"
+      },
+      {
+        "text": "for(i <= 10)"
+      },
+      {
+        "text": "for(int i = 1; i <= 10)"
+      }
+    ],
+    "answer": 0
+  },
+  {
+    "question": "35. Kiểu dữ liệu nào sau đây có thể dùng trong biểu thức của switch?",
+    "options": [
+      {
+        "text": "Kiểu số nguyên (int, char, enum)."
+      },
+      {
+        "text": "float."
+      },
+      {
+        "text": "double."
+      },
+      {
+        "text": "string."
+      }
+    ],
+    "answer": 0
+  },
+  {
+    "question": "36. Trong cấu trúc: do { // lệnh } while(dieu_kien); Khối lệnh được thực hiện tối thiểu bao nhiêu lần?",
+    "options": [
+      {
+        "text": "1 lần."
+      },
+      {
+        "text": "0 lần."
+      },
+      {
+        "text": "2 lần."
+      },
+      {
+        "text": "Không xác định."
+      }
+    ],
+    "answer": 0
+  },
+  {
+    "question": "37. Khi gặp lệnh break trong vòng lặp, chương trình sẽ?",
+    "options": [
+      {
+        "text": "Bắt đầu lại vòng lặp."
+      },
+      {
+        "text": "Bỏ qua lần lặp hiện tại."
+      },
+      {
+        "text": "Thoát ngay khỏi vòng lặp."
+      },
+      {
+        "text": "Dừng toàn bộ chương trình."
+      }
+    ],
+    "answer": 0
+  },
+  {
+    "question": "38. Ý nghĩa của vòng lặp while là gì?",
+    "options": [
+      {
+        "text": "Lặp đúng một lần."
+      },
+      {
+        "text": "Lặp không cần điều kiện."
+      },
+      {
+        "text": "Lặp khi điều kiện còn đúng."
+      },
+      {
+        "text": "Lặp theo số lần cố định."
+      }
+    ],
+    "answer": 0
+  },
+  {
+    "question": "39. Cho đoạn chương trình sau, hãy cho biết khi chương trình thực thi, kết quả in ra là gì? int sum = 0; for (int i = 1; i <= 10; i++) sum += i; cout << sum;",
+    "options": [
+      {
+        "text": "10"
+      },
+      {
+        "text": "0"
+      },
+      {
+        "text": "55"
+      },
+      {
+        "text": "12345678910"
+      }
+    ],
+    "answer": 0
+  },
+  {
+    "question": "40. Cho đoạn chương trình sau, nếu nhập diem = 8.3 thì chương trình sẽ in ra gì? float diem; cout << \"Nhap diem: \"; cin >> diem; if (diem >= 8) cout << \"Gioi\"; else if (diem >= 5) cout << \"Trung binh\"; else cout << \"Yeu\";",
+    "options": [
+      {
+        "text": "Trung binh"
+      },
+      {
+        "text": "Yeu"
+      },
+      {
+        "text": "Gioi"
+      },
+      {
+        "text": "Không in gì."
+      }
+    ],
+    "answer": 0
+  },
+  {
+    "question": "41. Hãy cho biết kết quả của đoạn chương trình sau là gì?",
+    "options": [
+      {
+        "text": "3.33333."
+      },
+      {
+        "text": "Khong hop le"
+      },
+      {
+        "text": "3"
+      },
+      {
+        "text": "13"
+      }
+    ],
+    "answer": 0
+  },
+  {
+    "question": "42. Cho đoạn chương trình sau, hãy cho biết vòng lặp do …while sẽ kết thúc khi nào?",
+    "options": [
+      {
+        "text": "Khi người dùng nhập n<0"
+      },
+      {
+        "text": "Khi người dùng nhập n>0"
+      },
+      {
+        "text": "Khi người dùng nhập n=0"
+      },
+      {
+        "text": "Vòng lặp vô hạn."
+      }
+    ],
+    "answer": 0
+  },
+  {
+    "question": "43. Cho đoạn chương trình sau, nếu người dùng nhập lần lượt các giá trị: 0, -4, 7 thì kết quả cuối cùng in ra là gì?",
+    "options": [
+      {
+        "text": "Ban da nhap: 0"
+      },
+      {
+        "text": "Ban da nhap: -4"
+      },
+      {
+        "text": "Vòng lặp vô hạn."
+      },
+      {
+        "text": "Ban da nhap: 7"
+      }
+    ],
+    "answer": 0
+  },
+  {
+    "question": "44. Đoạn mã sau cho kết quả bao nhiêu? #include <iostream> using namespace std; int main() { int count = 0; for(int i = 0; i < 10; ) { i += 2; count++; if(i == 6) break; } cout << count; }",
+    "options": [
+      {
+        "text": "2"
+      },
+      {
+        "text": "4"
+      },
+      {
+        "text": "5"
+      },
+      {
+        "text": "3"
+      }
+    ],
+    "answer": 0
+  },
+  {
+    "question": "45. Đoạn chương trình dưới đây thực hiện điều gì? #include <iostream> using namespace std; int main() { int n = 1234, count = 0; while(n > 0) { count++; n /= 10; } cout << count; }",
+    "options": [
+      {
+        "text": "Tính tổng các chữ số."
+      },
+      {
+        "text": "Đảo ngược số nguyên."
+      },
+      {
+        "text": "Đếm số chữ số của một số nguyên."
+      },
+      {
+        "text": "Kiểm tra số nguyên tố."
+      }
+    ],
+    "answer": 0
+  },
+  {
+    "question": "46. Đoạn chương trình sau lỗi ở dòng bao nhiêu? 1. #include <iostream> 2. using namespace std; 3. int main() { 4. int x = 1; 5. switch(x) { 6. case 1: 7. int y = 5; 8. case 2: 9. cout << y; 10. } 11. }",
+    "options": [
+      {
+        "text": "Dòng 9"
+      },
+      {
+        "text": "Dòng 7"
+      },
+      {
+        "text": "Chương trình không có lỗi."
+      },
+      {
+        "text": "Dòng 8"
+      }
+    ],
+    "answer": 0
+  },
+  {
+    "question": "47. Chương trình sau in ra bao nhiêu kí tự #? #include <iostream> using namespace std; int main() { for(int i = 0; i < 3; i++) { for(int j = 0; j < 4; j++) { if(j == 2) continue; cout << \"#\"; } } }",
+    "options": [
+      {
+        "text": "12"
+      },
+      {
+        "text": "9"
+      },
+      {
+        "text": "6"
+      },
+      {
+        "text": "8"
+      }
+    ],
+    "answer": 0
+  },
+  {
+    "question": "48. Ý nghĩa của đoạn chương trình sau là gì? #include <iostream> using namespace std; int main() { int n = 13579; while(n > 0) { if((n % 10) % 2 == 0) { cout << \"YES\"; return 0; } n /= 10; } cout << \"NO\"; }",
+    "options": [
+      {
+        "text": "Kiểm tra số toàn chữ số lẻ."
+      },
+      {
+        "text": "Kiểm tra số có chứa ít nhất một chữ số chẵn."
+      },
+      {
+        "text": "Đếm số chữ số lẻ."
+      },
+      {
+        "text": "Kiểm tra số nguyên tố."
+      }
+    ],
+    "answer": 0
+  },
+  {
+    "question": "49. Phát biểu nào đúng về cách lưu trữ phần tử mảng?",
+    "options": [
+      {
+        "text": "Các phần tử được lưu ngẫu nhiên."
+      },
+      {
+        "text": "Mỗi phần tử lưu ở một file riêng."
+      },
+      {
+        "text": "Các phần tử được lưu liên tiếp trong bộ nhớ."
+      },
+      {
+        "text": "Mỗi phần tử có kiểu dữ liệu khác nhau."
+      }
+    ],
+    "answer": 0
+  },
+  {
+    "question": "50. Cho khai báo: int a[] = {1,2,3,4}; Số lượng phần tử của mảng được xác định như thế nào?",
+    "options": [
+      {
+        "text": "Ngẫu nhiên bởi trình biên dịch."
+      },
+      {
+        "text": "Bằng 0."
+      },
+      {
+        "text": "Dựa vào số lượng phần tử trong cặp dấu ngoặc nhọn khởi tạo."
+      },
+      {
+        "text": "Phải nhập từ bàn phím."
+      }
+    ],
+    "answer": 0
+  },
+  {
+    "question": "51. Mảng hai chiều thường được sử dụng để biểu diễn?",
+    "options": [
+      {
+        "text": "Một kí tự đơn."
+      },
+      {
+        "text": "Một giá trị số nguyên."
+      },
+      {
+        "text": "Một hàm toán học."
+      },
+      {
+        "text": "Dữ liệu dạng bảng gồm hàng và cột."
+      }
+    ],
+    "answer": 0
+  },
+  {
+    "question": "52. Trong khai báo: int a[2][5]; Mảng a có số hàng là bao nhiêu?",
+    "options": [
+      {
+        "text": "2"
+      },
+      {
+        "text": "5"
+      },
+      {
+        "text": "7"
+      },
+      {
+        "text": "10"
+      }
+    ],
+    "answer": 0
+  },
+  {
+    "question": "53. Hàm getline(cin, s) khác cin >> s ở điểm nào?",
+    "options": [
+      {
+        "text": "getline() chỉ đọc một kí tự."
+      },
+      {
+        "text": "cin >> s đọc được cả dòng."
+      },
+      {
+        "text": "Hai cách hoàn toàn giống nhau."
+      },
+      {
+        "text": "getline() đọc được cả khoảng trắng."
+      }
+    ],
+    "answer": 0
+  },
+  {
+    "question": "54. Phát biểu nào đúng về kí tự kết thúc xâu trong C-string?",
+    "options": [
+      {
+        "text": "Là kí tự '\\0'"
+      },
+      {
+        "text": "Là kí tự '0'"
+      },
+      {
+        "text": "Là kí tự xuống dòng."
+      },
+      {
+        "text": "Không có kí tự kết thúc."
+      }
+    ],
+    "answer": 0
+  },
+  {
+    "question": "55. Hãy xem đoạn code bên dưới và cho biết kết quả in ra là gì? int a[3] = {2,4,6}; int s = 0; for(int i = 0; i < 3; i++) s += a[i]; cout << s;",
+    "options": [
+      {
+        "text": "12"
+      },
+      {
+        "text": "8"
+      },
+      {
+        "text": "6"
+      },
+      {
+        "text": "0"
+      }
+    ],
+    "answer": 0
+  },
+  {
+    "question": "56. Đoạn chương trình trả về kết quả bao nhiêu (giả định kiểu int chiếm 4 byte trong bộ nhớ)? int a[5] = {1,2,3,4,5}; cout << sizeof(a);",
+    "options": [
+      {
+        "text": "5"
+      },
+      {
+        "text": "4"
+      },
+      {
+        "text": "20"
+      },
+      {
+        "text": "25"
+      }
+    ],
+    "answer": 0
+  },
+  {
+    "question": "57. Đoạn chương trình sau thực hiện công việc gì? int a[5] = {5,4,3,2,1}; int t = a[0]; for(int i = 1; i < 5; i++) if(a[i] < t) t = a[i]; cout << t;",
+    "options": [
+      {
+        "text": "In ra phần tử lớn nhất của mảng."
+      },
+      {
+        "text": "In dãy số 54321"
+      },
+      {
+        "text": "Chương trình báo lỗi."
+      },
+      {
+        "text": "In ra phần tử nhỏ nhất của mảng."
+      }
+    ],
+    "answer": 0
+  },
+  {
+    "question": "58. Kết quả in ra của đoạn chương trình sau là gì? int a[2][2] = {{1,2},{3,4}}; int s=0; for(int i = 0; i < 2; i++) for(int j = 0; j < 2; j++) { if(a[i][j]%2 == 0) s+= a[i][j]; } cout << s;",
+    "options": [
+      {
+        "text": "10"
+      },
+      {
+        "text": "6"
+      },
+      {
+        "text": "4"
+      },
+      {
+        "text": "1234"
+      }
+    ],
+    "answer": 0
+  },
+  {
+    "question": "59. Cho đoạn code bên dưới, khi biên dịch chương trình sẽ cho kết quả là bao nhiêu? int a[3] = {1,2,3}; for(int i = 0; i < 3; i++) a[i] = a[i] + i; cout << a[2];",
+    "options": [
+      {
+        "text": "3"
+      },
+      {
+        "text": "4"
+      },
+      {
+        "text": "5"
+      },
+      {
+        "text": "6"
+      }
+    ],
+    "answer": 0
+  },
+  {
+    "question": "60. Kết quả in ra của đoạn chương trình sau là gì? int a[2][2] = {{1,2},{3,4}}; int t = a[0][0]; for(int i = 0; i < 2; i++) for(int j = 0 ; j < 2; j++) { if(t > a[i][j]) t= a[i][j]; } cout << t;",
+    "options": [
+      {
+        "text": "4"
+      },
+      {
+        "text": "10"
+      },
+      {
+        "text": "1234"
+      },
+      {
+        "text": "1"
+      }
+    ],
+    "answer": 0
+  },
+  {
+    "question": "61. Đoạn chương trình sau thực hiện công việc gì?",
+    "options": [
+      {
+        "text": "Sắp xếp các phần tử trên dòng thứ 2 của mảng theo thứ tự giảm dần."
+      },
+      {
+        "text": "Sắp xếp các phần tử trên dòng thứ 2 của mảng theo thứ tự tăng dần."
+      },
+      {
+        "text": "Sắp xếp các phần tử trên cột thứ 2 của mảng theo thứ tự tăng dần."
+      },
+      {
+        "text": "Sắp xếp toàn bộ các dòng của mảng theo thứ tự tăng dần."
+      }
+    ],
+    "answer": 0
+  },
+  {
+    "question": "62. Đoạn chương trình C++ sau bị lỗi biên dịch. Dòng nào là nguyên nhân chính gây ra lỗi? 1. #include <iostream> 2. using namespace std; 3. int main() { 4. int a[2][3] = {{1,2,3},{4,5,6}}; 5. for(int i = 0; i <= 2; i++); 6. { 7. for(int j = 0; j < 3; j++) { 8. cout << a[i][j] << \" \"; 9. } 10. cout << endl; 11. } 12. return 0; 13. }",
+    "options": [
+      {
+        "text": "Dòng 8"
+      },
+      {
+        "text": "Dòng 10"
+      },
+      {
+        "text": "Dòng 4"
+      },
+      {
+        "text": "Dòng 5"
+      }
+    ],
+    "answer": 0
+  },
+  {
+    "question": "63. Hãy cho biết đoạn chương trình sau bị lỗi ở dòng nào? char s[5] = \"Hello\"; cout << s;",
+    "options": [
+      {
+        "text": "Dòng cout << s;"
+      },
+      {
+        "text": "Không có lỗi."
+      },
+      {
+        "text": "Thiếu thư viện."
+      },
+      {
+        "text": "Dòng char s[5] = \"Hello\";"
+      }
+    ],
+    "answer": 0
+  },
+  {
+    "question": "64. Kết quả sau khi chạy đoạn chương trình sau là?",
+    "options": [
+      {
+        "text": "Tran Thu Phuong"
+      },
+      {
+        "text": "Tran Thi Thu Phuong"
+      },
+      {
+        "text": "TraN Thi Thu PHUonG"
+      },
+      {
+        "text": "tran thi thu phuong"
+      }
+    ],
+    "answer": 0
+  },
+  {
+    "question": "65. Trong C++, phát biểu nào đúng về con trỏ NULL hoặc nullptr?",
+    "options": [
+      {
+        "text": "Là con trỏ luôn trỏ đến biến đầu tiên."
+      },
+      {
+        "text": "Là con trỏ chỉ dùng trong mảng."
+      },
+      {
+        "text": "Là con trỏ không trỏ đến vùng nhớ hợp lệ nào."
+      },
+      {
+        "text": "Là con trỏ bắt buộc phải cấp phát bằng new."
+      }
+    ],
+    "answer": 0
+  },
+  {
+    "question": "66. Trong lập trình hướng đối tượng C++, con trỏ thường được sử dụng chủ yếu để làm gì?",
+    "options": [
+      {
+        "text": "Thực thi trực tiếp hàm main() của chương trình."
+      },
+      {
+        "text": "Thay đổi cấu trúc và định nghĩa của một lớp đã khai báo."
+      },
+      {
+        "text": "Tự động thực hiện cơ chế kế thừa giữa các lớp."
+      },
+      {
+        "text": "Quản lý và truy cập các đối tượng được cấp phát động trên heap."
+      }
+    ],
+    "answer": 0
+  },
+  {
+    "question": "67. Khi nào nên sử dụng con trỏ để truyền đối tượng vào hàm trong C++?",
+    "options": [
+      {
+        "text": "Khi muốn thay đổi trực tiếp giá trị của đối tượng gốc trong hàm."
+      },
+      {
+        "text": "Khi chỉ cần sao chép toàn bộ đối tượng vào hàm."
+      },
+      {
+        "text": "Khi muốn ép đối tượng trở thành hằng số trong hàm."
+      },
+      {
+        "text": "Khi không cần quan tâm đến địa chỉ của đối tượng."
+      }
+    ],
+    "answer": 0
+  },
+  {
+    "question": "68. Trong C++, ký hiệu nào được sử dụng để lấy địa chỉ của một biến trong bộ nhớ?",
+    "options": [
+      {
+        "text": "&"
+      },
+      {
+        "text": "*"
+      },
+      {
+        "text": "#"
+      },
+      {
+        "text": "%"
+      }
+    ],
+    "answer": 0
+  },
+  {
+    "question": "69. Khai báo nào sau đây là đúng để tạo một con trỏ kiểu float?",
+    "options": [
+      {
+        "text": "float *p;"
+      },
+      {
+        "text": "float p*;"
+      },
+      {
+        "text": "*float p;"
+      },
+      {
+        "text": "pointer float p;"
+      }
+    ],
+    "answer": 0
+  },
+  {
+    "question": "70. Cho đoạn chương trình sau: int x = 8; int *p = &x; cout << p; Khi thực thi lệnh cout << p;, kết quả in ra là gì?",
+    "options": [
+      {
+        "text": "Địa chỉ của biến x."
+      },
+      {
+        "text": "Giá trị 8"
+      },
+      {
+        "text": "Giá trị không xác định (rác bộ nhớ)."
+      },
+      {
+        "text": "Lỗi cú pháp."
+      }
+    ],
+    "answer": 0
+  },
+  {
+    "question": "71. Cho đoạn chương trình sau: int a = 5; int *p; p = a; cout << *p; Dòng lệnh nào gây lỗi?",
+    "options": [
+      {
+        "text": "int *p;"
+      },
+      {
+        "text": "p = a;"
+      },
+      {
+        "text": "cout << *p;"
+      },
+      {
+        "text": "Không có lỗi."
+      }
+    ],
+    "answer": 0
+  },
+  {
+    "question": "72. Kết quả được in ra màn hình là gì? int* p = new int(25); delete p; cout << *p;",
+    "options": [
+      {
+        "text": "25"
+      },
+      {
+        "text": "Hành vi không xác định (Undefined behavior / Có thể gây lỗi runtime hoặc in ra giá trị rác)."
+      },
+      {
+        "text": "0"
+      },
+      {
+        "text": "Lỗi biên dịch."
+      }
+    ],
+    "answer": 0
+  },
+  {
+    "question": "73. Ý nghĩa của đoạn chương trình sau là gì? int x = 10; int *p = &x; *p = *p + 2;",
+    "options": [
+      {
+        "text": "Tăng địa chỉ của biến x lên 2."
+      },
+      {
+        "text": "Khởi tạo một con trỏ mới."
+      },
+      {
+        "text": "Tăng giá trị của biến x lên 2."
+      },
+      {
+        "text": "Xóa biến x khỏi bộ nhớ."
+      }
+    ],
+    "answer": 0
+  },
+  {
+    "question": "74. Kết quả được in ra là gì? int a = 5, b = 10; int* p = &a; *p = *p + 5; p = &b; *p = *p + 2; cout << a << \" \" << b;",
+    "options": [
+      {
+        "text": "5 12"
+      },
+      {
+        "text": "10 10"
+      },
+      {
+        "text": "12 12"
+      },
+      {
+        "text": "10 12"
+      }
+    ],
+    "answer": 0
+  },
+  {
+    "question": "75. Kết quả được in ra màn hình là gì? int arr[] = {10, 20, 30}; int* p = arr; cout << *(p++); cout << *p;",
+    "options": [
+      {
+        "text": "2020"
+      },
+      {
+        "text": "1010"
+      },
+      {
+        "text": "1020"
+      },
+      {
+        "text": "3030"
+      }
+    ],
+    "answer": 0
+  },
+  {
+    "question": "76. Kết quả được in ra màn hình là gì? #include <iostream> using namespace std; int main() { char str[] = \"Cat\"; char *p = str; *p = 'B'; cout << str; }",
+    "options": [
+      {
+        "text": "Cat"
+      },
+      {
+        "text": "B"
+      },
+      {
+        "text": "Lỗi biên dịch."
+      },
+      {
+        "text": "Bat"
+      }
+    ],
+    "answer": 0
+  },
+  {
+    "question": "77. Kết quả được in ra là gì? int* p = new int; *p = 99; delete p; p = NULL; cout << (p == NULL);",
+    "options": [
+      {
+        "text": "1"
+      },
+      {
+        "text": "0"
+      },
+      {
+        "text": "99"
+      },
+      {
+        "text": "Lỗi runtime."
+      }
+    ],
+    "answer": 0
+  },
+  {
+    "question": "78. Kết quả được in ra là gì?",
+    "options": [
+      {
+        "text": "0 1 2 3 4"
+      },
+      {
+        "text": "1 1 1 1 1"
+      },
+      {
+        "text": "1 2 3 4 5"
+      },
+      {
+        "text": "Lỗi chương trình."
+      }
+    ],
+    "answer": 0
+  },
+  {
+    "question": "79. Xét đoạn chương trình sau: #include <cstring> int main() { char *s1; char s2[] = \"Hello\"; strcpy(s1, s2); } Nguyên nhân nào khiến chương trình có thể gây lỗi khi chạy (runtime error/undefined behavior)?",
+    "options": [
+      {
+        "text": "Hàm strcpy không thể sử dụng với chuỗi kí tự trong C++."
+      },
+      {
+        "text": "Mảng s2 khai báo sai cú pháp."
+      },
+      {
+        "text": "Thiếu thư viện iostream."
+      },
+      {
+        "text": "Con trỏ s1 chưa được cấp phát bộ nhớ hợp lệ trước khi sử dụng strcpy."
+      }
+    ],
+    "answer": 0
+  },
+  {
+    "question": "80. Ý nghĩa của đoạn chương trình sau là gì? int a[2][3] = {{1,2,3},{4,5,6}}; int *p = &a[0][0]; for(int i = 0; i < 6; i++) cout << *(p + i) << \" \";",
+    "options": [
+      {
+        "text": "Duyệt theo cột của mảng."
+      },
+      {
+        "text": "Chỉ duyệt hàng đầu tiên."
+      },
+      {
+        "text": "Lỗi chương trình."
+      },
+      {
+        "text": "Duyệt toàn bộ mảng 2 chiều như một mảng 1 chiều liên tiếp trong bộ nhớ."
+      }
+    ],
+    "answer": 0
+  },
+  {
+    "question": "81. Lời gọi hàm nào SAI với hàm void test (int a, int b = 10, int c = 20);?",
+    "options": [
+      {
+        "text": "test(5, , 30);"
+      },
+      {
+        "text": "test(5);"
+      },
+      {
+        "text": "test(5, 15);"
+      },
+      {
+        "text": "test(1, 2, 3);"
+      }
+    ],
+    "answer": 0
+  },
+  {
+    "question": "82. Với mảng hai chiều int arr[5][10], cách khai báo tham số hàm nào sau đây là đúng?",
+    "options": [
+      {
+        "text": "void nhap(int a[5][]);"
+      },
+      {
+        "text": "void nhap(int **a);"
+      },
+      {
+        "text": "void nhap(int a[5]);"
+      },
+      {
+        "text": "void nhap(int a[][10]);"
+      }
+    ],
+    "answer": 0
+  },
+  {
+    "question": "83. Phát biểu nào sau đây là đúng? void hienThi (string s = \"Khoa CNTT\", int n) { for(int i=0; i<n; i++) cout << s; }",
+    "options": [
+      {
+        "text": "Hàm chạy bình thường."
+      },
+      {
+        "text": "Hàm lỗi vì tham số mặc định s phải đứng sau tham số không mặc định n."
+      },
+      {
+        "text": "Hàm in xâu kí tự \"Khoa CNTT\" n lần."
+      },
+      {
+        "text": "n tự động nhận giá trị mặc định là 0."
+      }
+    ],
+    "answer": 0
+  },
+  {
+    "question": "84. Lợi ích lớn nhất của việc sử dụng hàm trong chương trình là gì?",
+    "options": [
+      {
+        "text": "Làm chương trình chạy nhanh hơn trong mọi trường hợp."
+      },
+      {
+        "text": "Giảm hoàn toàn lỗi cú pháp."
+      },
+      {
+        "text": "Không cần dùng biến trong chương trình."
+      },
+      {
+        "text": "Giúp tái sử dụng mã lệnh và chia nhỏ bài toán."
+      }
+    ],
+    "answer": 0
+  },
+  {
+    "question": "85. Vị trí hợp lệ của khai báo hàm trong chương trình là?",
+    "options": [
+      {
+        "text": "Chỉ được đặt trong main()"
+      },
+      {
+        "text": "Chỉ đặt sau main()"
+      },
+      {
+        "text": "Trước main() hoặc trong file header."
+      },
+      {
+        "text": "Chỉ đặt trong vòng lặp."
+      }
+    ],
+    "answer": 0
+  },
+  {
+    "question": "86. Đặc điểm của hàm sau là? int f(int x){ return f(x-1); }",
+    "options": [
+      {
+        "text": "Chạy bình thường."
+      },
+      {
+        "text": "Không hợp lệ."
+      },
+      {
+        "text": "Đệ quy vô hạn."
+      },
+      {
+        "text": "Trả về 0"
+      }
+    ],
+    "answer": 0
+  },
+  {
+    "question": "87. Phát biểu nào sau đây là đúng về đoạn chương trình sau? int getArea(int w, int h) { float s = w * h; return s; } int main() { cout << getArea(5, 4.1); return 0; }",
+    "options": [
+      {
+        "text": "Đối số 4.1 (kiểu double) khi truyền vào tham số h (kiểu int) sẽ bị ép kiểu ngầm định cắt bỏ phần"
+      },
+      {
+        "text": "Chương trình bị lỗi biên dịch vì hàm yêu cầu tham số kiểu int nhưng giá trị truyền vào lại là 4.1."
+      },
+      {
+        "text": "Kết quả in ra màn hình là 20.5 vì biến s trong hàm được khai báo là kiểu float."
+      },
+      {
+        "text": "Chương trình bị lỗi runtime do kiểu dữ liệu trả về của hàm không đồng nhất với kiểu của biến s."
+      }
+    ],
+    "answer": 0
+  },
+  {
+    "question": "88. Kết quả của đoạn mã sau là gì? #include <iostream> #include <cstring> using namespace std; bool compare(char a, char b) { return a>b; } bool compare(char s1[], char s2[]) { return strcmp(s1, s2) > 0; } int main() { cout << compare(\"Ninh Binh\",\"Ha Noi\"); return 0; }",
+    "options": [
+      {
+        "text": "1"
+      },
+      {
+        "text": "0"
+      },
+      {
+        "text": "-1"
+      },
+      {
+        "text": "Chương trình báo lỗi biên dịch do trùng tên hàm."
+      }
+    ],
+    "answer": 0
+  },
+  {
+    "question": "89. Đoạn mã sau in ra kết quả gì? void test (int x, int &y, int *z) { x++; y++; (*z)++; } int main() { int a = 1, b = 1, c = 1; test(a, b, &c); cout << a << b << c; return 0; }",
+    "options": [
+      {
+        "text": "222"
+      },
+      {
+        "text": "111"
+      },
+      {
+        "text": "121"
+      },
+      {
+        "text": "122"
+      }
+    ],
+    "answer": 0
+  },
+  {
+    "question": "90. Hàm sau thực hiện công việc gì? void print(int n) { if (n > 0) { print(--n); cout << n << \" \"; } }",
+    "options": [
+      {
+        "text": "In các số từ 1 đến n theo thứ tự tăng dần."
+      },
+      {
+        "text": "In các số từ n đến 0 theo thứ tự giảm dần."
+      },
+      {
+        "text": "In các số từ 0 đến n theo thứ tự tăng dần."
+      },
+      {
+        "text": "In các số từ 0 đến n-1 theo thứ tự tăng dần."
+      }
+    ],
+    "answer": 0
+  },
+  {
+    "question": "91. Đoạn chương trình sau in kết quả bao nhiêu?",
+    "options": [
+      {
+        "text": "1 2 3 100 4 5"
+      },
+      {
+        "text": "100 1 2 3 4 5"
+      },
+      {
+        "text": "1 2 100 3 4 5"
+      },
+      {
+        "text": "1 100 2 3 4 5"
+      }
+    ],
+    "answer": 0
+  },
+  {
+    "question": "92. Cho đoạn chương trình sau Chương trình trên sai ở dòng nào?",
+    "options": [
+      {
+        "text": "Dòng 6."
+      },
+      {
+        "text": "Dòng 20."
+      },
+      {
+        "text": "Dòng 11."
+      },
+      {
+        "text": "Dòng 3."
+      }
+    ],
+    "answer": 0
+  },
+  {
+    "question": "93. Kết quả thực hiện đoạn chương trình sau là bao nhiêu?",
+    "options": [
+      {
+        "text": "5"
+      },
+      {
+        "text": "3"
+      },
+      {
+        "text": "-1"
+      },
+      {
+        "text": "2"
+      }
+    ],
+    "answer": 0
+  },
+  {
+    "question": "94. Đoạn chương trình sau dùng để? void sumRows(int a[2][2]) { for (int i = 0; i < 2; i++) { int s = 0; for (int j = 0; j < 2; j++) { s += a[i][j]; } cout << s << \" \"; } }",
+    "options": [
+      {
+        "text": "Tính và in tổng từng dòng của mảng."
+      },
+      {
+        "text": "Tính và in tổng từng cột của mảng."
+      },
+      {
+        "text": "Tính và in tổng các phần tử của mảng."
+      },
+      {
+        "text": "Đếm số phần tử trên từng dòng."
+      }
+    ],
+    "answer": 0
+  },
+  {
+    "question": "95. Cho hàm sau: bool isTxtFile(string filename) { if (filename.length() < 4) return false; return filename.substr(filename.length() - 4) == \".txt\"; } Hàm trên có lỗi gì?",
+    "options": [
+      {
+        "text": "Không có lỗi."
+      },
+      {
+        "text": "Hàm substr() không dùng được với kiểu string."
+      },
+      {
+        "text": "length() trả về kiểu char nên bị sai."
+      },
+      {
+        "text": "Không thể so sánh chuỗi bằng =="
+      }
+    ],
+    "answer": 0
+  },
+  {
+    "question": "96. Kết quả của chương trình là gì? #include <iostream> using namespace std; string getFirstName(string s){ return s.substr(0,s.find(' ')); } int main(){ string s = \"Dinh Thi Thu Trang\"; cout << getFirstName(s); return 0; }",
+    "options": [
+      {
+        "text": "Thi"
+      },
+      {
+        "text": "Dinh"
+      },
+      {
+        "text": "Thu Trang"
+      },
+      {
+        "text": "Dinh Thi"
+      }
+    ],
+    "answer": 0
+  },
+  {
+    "question": "97. Cho cấu trúc struct Diem { int x, y; }; Khai báo đúng mảng gồm 5 phần tử kiểu Diem là?",
+    "options": [
+      {
+        "text": "struct p Diem[5];"
+      },
+      {
+        "text": "p Diem[5];"
+      },
+      {
+        "text": "Diem[5] p;"
+      },
+      {
+        "text": "Diem p[5];"
+      }
+    ],
+    "answer": 0
+  },
+  {
+    "question": "98. Phát biểu nào sau đây là đúng về struct, union và enum?",
+    "options": [
+      {
+        "text": "Kích thước của union luôn bằng tổng kích thước của tất cả các thành viên."
+      },
+      {
+        "text": "Các thành viên của enum được lưu trữ ở các vùng nhớ riêng biệt giống như các thành viên của"
+      },
+      {
+        "text": "Trong union, tất cả các thành viên dùng chung một vùng nhớ, nên tại một thời điểm chỉ có thể lưu"
+      },
+      {
+        "text": "Trong struct, tất cả các thành viên đều dùng chung một vùng nhớ giống như union."
+      }
+    ],
+    "answer": 0
+  },
+  {
+    "question": "99. Đặc điểm đúng của union là gì?",
+    "options": [
+      {
+        "text": "Các thành viên dùng chung một vùng nhớ."
+      },
+      {
+        "text": "Mỗi thành viên có vùng nhớ riêng."
+      },
+      {
+        "text": "Không thể chứa kiểu số nguyên."
+      },
+      {
+        "text": "Không thể khai báo biến."
+      }
+    ],
+    "answer": 0
+  },
+  {
+    "question": "100. Cho khai báo union union DuLieu{ int i; float f; }; Kích thước của union DuLieu phụ thuộc vào yếu tố nào?",
+    "options": [
+      {
+        "text": "Tổng kích thước các thành viên."
+      },
+      {
+        "text": "Thành viên đầu tiên."
+      },
+      {
+        "text": "Thành viên cuối cùng."
+      },
+      {
+        "text": "Thành viên có kích thước lớn nhất."
+      }
+    ],
+    "answer": 0
+  },
+  {
+    "question": "101. Xét khai báo enum sau: enum Level {VERY_EASY, EASY, MEDIUM, HARD, VERY_HARD}; Giá trị của MEDIUM là bao nhiêu?",
+    "options": [
+      {
+        "text": "1"
+      },
+      {
+        "text": "4"
+      },
+      {
+        "text": "2"
+      },
+      {
+        "text": "3"
+      }
+    ],
+    "answer": 0
+  },
+  {
+    "question": "102. struct trong C++ là gì?",
+    "options": [
+      {
+        "text": "Một kiểu dữ liệu chỉ lưu số nguyên."
+      },
+      {
+        "text": "Một hàm đặc biệt trong C++."
+      },
+      {
+        "text": "Một cấu trúc điều khiển chương trình."
+      },
+      {
+        "text": "Một kiểu dữ liệu do người dùng định nghĩa, dùng để nhóm nhiều biến có thể khác kiểu dữ liệu"
+      }
+    ],
+    "answer": 0
+  },
+  {
+    "question": "103. Kết quả đoạn chương trình sau là bao nhiêu? #include <iostream> using namespace std; struct Sach { string tieuDe; int gia; }; int main() { Sach b = {\"C++\", 50}; Sach *p = &b; cout << p->tieuDe; }",
+    "options": [
+      {
+        "text": "C++"
+      },
+      {
+        "text": "50"
+      },
+      {
+        "text": "tieuDe"
+      },
+      {
+        "text": "Lỗi"
+      }
+    ],
+    "answer": 0
+  },
+  {
+    "question": "104. Đoạn chương trình sai dòng lệnh thứ bao nhiêu?",
+    "options": [
+      {
+        "text": "Dòng 16"
+      },
+      {
+        "text": "Dòng 10, 11, 12"
+      },
+      {
+        "text": "Dòng 9"
+      },
+      {
+        "text": "Không báo lỗi."
+      }
+    ],
+    "answer": 0
+  },
+  {
+    "question": "105. Xét đoạn chương trình sau: Để biết sinh viên đó thuộc phường nào ta viết lệnh?",
+    "options": [
+      {
+        "text": "cout << sv.phuong_Xa;"
+      },
+      {
+        "text": "cout << SinhVien.diaChi.phuong_Xa;"
+      },
+      {
+        "text": "cout << diaChi.phuong_Xa;"
+      },
+      {
+        "text": "cout << sv.diaChi.phuong_Xa;"
+      }
+    ],
+    "answer": 0
+  },
+  {
+    "question": "106. Kết quả đoạn chương trình sau in ra là gì? #include <iostream> using namespace std; union Log { float temperature; int status; }; int main() { Log log; log.temperature = 36.5f; log.status = 1; cout << log.temperature; }",
+    "options": [
+      {
+        "text": "36.5"
+      },
+      {
+        "text": "1"
+      },
+      {
+        "text": "Lỗi biên dịch."
+      },
+      {
+        "text": "Giá trị không xác định."
+      }
+    ],
+    "answer": 0
+  },
+  {
+    "question": "107. Chương trình sau thực hiện công việc gì? #include <iostream> using namespace std; struct SoNguyen { int x; }; int main() { SoNguyen a[4] = {{1},{2},{3},{4}}; for (int i = 3; i >= 0; i--) cout << a[i].x << \" \"; }",
+    "options": [
+      {
+        "text": "In các phần tử của mảng theo thứ tự ban đầu."
+      },
+      {
+        "text": "In các phần tử của mảng theo thứ tự ngược lại."
+      },
+      {
+        "text": "Tính tổng các phần tử của mảng."
+      },
+      {
+        "text": "Tìm phần tử lớn nhất trong mảng."
+      }
+    ],
+    "answer": 0
+  },
+  {
+    "question": "108. Đoạn chương trình trên thực hiện chức năng gì?",
+    "options": [
+      {
+        "text": "Khởi tạo điểm bằng 1 cho tất cả các sinh viên có điểm nhỏ hơn 8."
+      },
+      {
+        "text": "Xóa điểm của sinh viên."
+      },
+      {
+        "text": "Giữ nguyên điểm tất cả sinh viên."
+      },
+      {
+        "text": "Tăng điểm thêm 1 cho các sinh viên có điểm dưới 8."
+      }
+    ],
+    "answer": 0
+  },
+  {
+    "question": "109. Cho đoạn chương trình sau: Kết quả chương trình trên in ra bao nhiêu?",
+    "options": [
+      {
+        "text": "7.4"
+      },
+      {
+        "text": "2"
+      },
+      {
+        "text": "7.5"
+      },
+      {
+        "text": "7"
+      }
+    ],
+    "answer": 0
+  },
+  {
+    "question": "110. Kết quả thực hiện đoạn chương trình là bao nhiêu? Kết quả là?",
+    "options": [
+      {
+        "text": "2"
+      },
+      {
+        "text": "1"
+      },
+      {
+        "text": "3"
+      },
+      {
+        "text": "0"
+      }
+    ],
+    "answer": 0
+  },
+  {
+    "question": "111. Cho đoạn chương trình Chương trình in ra kết quả gì?",
+    "options": [
+      {
+        "text": "Struct Cay"
+      },
+      {
+        "text": "Bien Mang"
+      },
+      {
+        "text": "Cay"
+      },
+      {
+        "text": "Struct"
+      }
+    ],
+    "answer": 0
+  },
+  {
+    "question": "112. Cho đoạn chương trình: Đoạn chương trình sau bị lỗi ở dòng nào?",
+    "options": [
+      {
+        "text": "Dòng 4, 5, 6"
+      },
+      {
+        "text": "Không sai dòng nào."
+      },
+      {
+        "text": "Dòng 11"
+      },
+      {
+        "text": "Dòng 15, 16, 17"
+      }
+    ],
+    "answer": 0
+  },
+  {
+    "question": "120. Đoạn mã sau đây thực hiện công việc gì? ifstream file(\"test.txt\"); file.seekg(0, ios::end); int size = file.tellg(); file.seekg(0, ios::beg); cout << \"File size: \" << size << \" bytes\";",
+    "options": [
+      {
+        "text": "In kích thước tệp tính bằng byte."
+      },
+      {
+        "text": "In vị trí con trỏ hiện tại là 0."
+      },
+      {
+        "text": "Lỗi biên dịch do tellg không dùng được với ifstream."
+      },
+      {
+        "text": "In số dòng của tệp."
+      }
+    ],
+    "answer": 0
+  },
+  {
+    "question": "121. Cho nội dung tệp songuyen.txt: 2 5 8 1 4 Sau khi thực hiện chương trình, dòng đầu tiên trong ketqua.txt là? ifstream f(\"songuyen.txt\"); int x, tong = 0; while(f >> x) tong += x; ofstream g(\"ketqua.txt\"); g << tong;",
+    "options": [
+      {
+        "text": "28514"
+      },
+      {
+        "text": "8"
+      },
+      {
+        "text": "2 8 4"
+      },
+      {
+        "text": "20"
+      }
+    ],
+    "answer": 0
+  },
+  {
+    "question": "125. Cho đoạn chương trình void tachPhongBan(NhanVien ds[], int n) { for (int i = 0; i < n; i++) { char tenFile[50]; strcpy(tenFile, ds[i].phongBan); strcat(tenFile, \".dat\"); ofstream f(tenFile, ios::binary | ios::app); f.write((char*)&ds[i], sizeof(NhanVien)); f.close(); } } Nếu có 3 nhân viên thuộc 3 phòng ban khác nhau, số file được tạo là?",
+    "options": [
+      {
+        "text": "1 file."
+      },
+      {
+        "text": "0 file."
+      },
+      {
+        "text": "2 file."
+      },
+      {
+        "text": "3 file khác nhau."
+      }
+    ],
+    "answer": 0
+  },
+  {
+    "question": "126. Xét đoạn chương trình sau: float maxLuong = tinhLuong(ds[0]); for (int i = 1; i < n; i++) { if (tinhLuong(ds[i]) > maxLuong) { maxLuong = tinhLuong(ds[i]); } } ofstream f(\"LuongMax.dat\", ios::binary); // VỊ TRÍ X for (int i = 0; i < n; i++) { if (tinhLuong(ds[i]) == maxLuong) { f.write((char*)&ds[i], sizeof(NhanVien)); } } f.close(); Để tránh lỗi nghiêm trọng khi ghi file hoặc lỗi crash bộ nhớ trong trường hợp không mở được file (ví dụ ổ đĩa đầy hoặc không có quyền ghi), ta cần chèn đoạn mã kiểm tra if (!f) { ... } vào vị trí nào tốt nhất?",
+    "options": [
+      {
+        "text": "Ngay sau dòng lệnh tạo đối tượng: ofstream f(\"LuongMax.dat\", ios::binary);"
+      },
+      {
+        "text": "Cho vào bên trong vòng lặp for kiểm tra lương."
+      },
+      {
+        "text": "Ngay trước dòng lệnh f.close();"
+      },
+      {
+        "text": "Không cần kiểm tra vì C++ tự xử lý lỗi này."
+      }
+    ],
+    "answer": 0
+  },
+  {
+    "question": "127. Cho tệp nhị phân NhanVien.dat được ghi theo cấu trúc:  Đầu tệp lưu số nguyên n  Tiếp theo là n đối tượng kiểu NhanVien Xét đoạn chương trình sau: ifstream f(\"NhanVien.dat\", ios::binary); int n; f.read((char*)&n, sizeof(int)); NhanVien nv; f.seekg(4 * sizeof(NhanVien), ios::cur); f.read((char*)&nv, sizeof(NhanVien)); cout << nv.maNV; Đoạn chương trình trên thực hiện chức năng nào sau đây?",
+    "options": [
+      {
+        "text": "Đọc và hiển thị mã của nhân viên thứ 5 trong tệp."
+      },
+      {
+        "text": "Đọc và hiển thị mã của nhân viên thứ 4 trong tệp."
+      },
+      {
+        "text": "Đọc và hiển thị mã của nhân viên thứ 6 trong tệp."
+      },
+      {
+        "text": "Chương trình báo lỗi truy cập vùng nhớ."
+      }
+    ],
+    "answer": 0
+  },
+  {
+    "question": "128. Cho đoạn chương trình: Kết quả dữ liệu được lưu trữ trong file DuLieu.txt là?",
+    "options": [
+      {
+        "text": "2, 5, 8, 11, 14, 17, 19, 20, 23, 25"
+      },
+      {
+        "text": "2, 8, 14, 20"
+      },
+      {
+        "text": "Chương trình báo lỗi."
+      },
+      {
+        "text": "2 5 11 17 19 23"
+      }
+    ],
+    "answer": 0
+  },
+  {
+    "question": "129. So với Procedural Programming (lập trình hướng thủ tục), ưu điểm nổi bật của Object-Oriented Programming (lập trình hướng đối tượng) là gì?",
+    "options": [
+      {
+        "text": "Chỉ phù hợp để triển khai các chương trình có quy mô nhỏ."
+      },
+      {
+        "text": "Dễ mở rộng và tái sử dụng mã nguồn thông qua lớp và cơ chế kế thừa."
+      },
+      {
+        "text": "Không cần quản lý dữ liệu và bộ nhớ trong chương trình."
+      },
+      {
+        "text": "Không hỗ trợ chia nhỏ chương trình thành các phần độc lập."
+      }
+    ],
+    "answer": 0
+  },
+  {
+    "question": "130. Nếu không khai báo phạm vi truy xuất trong lớp của C++, mặc định sẽ là gì?",
+    "options": [
+      {
+        "text": "public"
+      },
+      {
+        "text": "protected"
+      },
+      {
+        "text": "private"
+      },
+      {
+        "text": "static"
+      }
+    ],
+    "answer": 0
+  },
+  {
+    "question": "131. Câu lệnh nào khai báo mảng đối tượng kiểu SinhVien đúng?",
+    "options": [
+      {
+        "text": "array SinhVien[10];"
+      },
+      {
+        "text": "object ds = new SinhVien[10];"
+      },
+      {
+        "text": "SinhVien = ds[10];"
+      },
+      {
+        "text": "SinhVien ds[10];"
+      }
+    ],
+    "answer": 0
+  },
+  {
+    "question": "132. Xét đoạn chương trình sau #include <iostream> using namespace std; class MayIn { public: MayIn() { cout << \"ON\"; } }; int main() { MayIn m1, m2; } Kết quả thực hiện là?",
+    "options": [
+      {
+        "text": "ON"
+      },
+      {
+        "text": "0"
+      },
+      {
+        "text": "Lỗi."
+      },
+      {
+        "text": "ONON"
+      }
+    ],
+    "answer": 0
+  },
+  {
+    "question": "133. Ý nghĩa của toán tử phạm vi :: trong C++ là gì?",
+    "options": [
+      {
+        "text": "Dùng để truy cập con trỏ đối tượng."
+      },
+      {
+        "text": "Dùng để truy cập thành viên thuộc phạm vi lớp hoặc namespace."
+      },
+      {
+        "text": "Dùng để khai báo mảng."
+      },
+      {
+        "text": "Dùng để cấp phát bộ nhớ."
+      }
+    ],
+    "answer": 0
+  },
+  {
+    "question": "134. Phát biểu nào đúng nhất về hàm tạo mặc định do trình biên dịch sinh ra?",
+    "options": [
+      {
+        "text": "Hàm tạo mặc định chỉ được sinh khi lớp chưa tự định nghĩa bất kỳ hàm tạo nào."
+      },
+      {
+        "text": "Hàm tạo mặc định luôn được sinh dù lớp đã có hàm tạo khác."
+      },
+      {
+        "text": "Hàm tạo mặc định do trình biên dịch sinh ra luôn khởi tạo mọi thuộc tính về 0."
+      },
+      {
+        "text": "Hàm tạo mặc định là hàm hủy đặc biệt."
+      }
+    ],
+    "answer": 0
+  },
+  {
+    "question": "135. Xét đoạn chương trình sau: #include <iostream> using namespace std; class NhanVien { private: float luong; public: NhanVien(float l = 10000) { luong = l; } void tangLuong() { luong += 5000; } float getLuong() { return luong; } }; int main() { NhanVien ds[2] = { NhanVien(20000), NhanVien() }; NhanVien *p = ds; p->tangLuong(); cout << p->getLuong(); } Kết quả thực hiện là?",
+    "options": [
+      {
+        "text": "20000"
+      },
+      {
+        "text": "15000"
+      },
+      {
+        "text": "30000"
+      },
+      {
+        "text": "25000"
+      }
+    ],
+    "answer": 0
+  },
+  {
+    "question": "136. Xét đoạn chương trình sau: Kết quả in ra là bao nhiêu?",
+    "options": [
+      {
+        "text": "2"
+      },
+      {
+        "text": "3"
+      },
+      {
+        "text": "0"
+      },
+      {
+        "text": "1"
+      }
+    ],
+    "answer": 0
+  },
+  {
+    "question": "137. Xét đoạn chương trình sau: class SinhVienCNTT { string hoTen; public: void setName(string hoTen){ this->hoTen = hoTen; } }; Câu lệnh đúng để gán tên là “Pham Thi Thuy Van”?",
+    "options": [
+      {
+        "text": "setName(\"Pham Thi Thuy Van \");"
+      },
+      {
+        "text": "SinhVienCNTT.setName(\"Pham Thi Thuy Van \");"
+      },
+      {
+        "text": "SinhVienCNTT sv; sv.setName(\"Pham Thi Thuy Van\");"
+      },
+      {
+        "text": "sv->setName(Pham Thi Thuy Van);"
+      }
+    ],
+    "answer": 0
+  },
+  {
+    "question": "138. Kết quả thực hiện đoạn chương trình là?",
+    "options": [
+      {
+        "text": "5/6"
+      },
+      {
+        "text": "2/5"
+      },
+      {
+        "text": "1/6"
+      },
+      {
+        "text": "3/5"
+      }
+    ],
+    "answer": 0
+  },
+  {
+    "question": "139. Xét đoạn chương trình sau: Chương trình bị lỗi dòng nào?",
+    "options": [
+      {
+        "text": "Dòng 17 – lỗi gán đối tượng."
+      },
+      {
+        "text": "Dòng 15 – lỗi hàm main."
+      },
+      {
+        "text": "Dòng 16 – lỗi không có constructor mặc định."
+      },
+      {
+        "text": "Không có lỗi."
+      }
+    ],
+    "answer": 0
+  },
+  {
+    "question": "140. Đoạn chương trình sau thực hiện công việc gì?",
+    "options": [
+      {
+        "text": "Tìm điểm thấp nhất trong danh sách học sinh."
+      },
+      {
+        "text": "Tìm điểm cao nhất trong danh sách học sinh."
+      },
+      {
+        "text": "Đưa ra danh sách các học sinh có điểm cao nhất."
+      },
+      {
+        "text": "Đếm học sinh đạt điểm cao nhất."
+      }
+    ],
+    "answer": 0
+  },
+  {
+    "question": "141. Đoạn chương trình sau thực hiện công việc gì?",
+    "options": [
+      {
+        "text": "Tìm sinh viên đầu tiên có điểm ≥ 7"
+      },
+      {
+        "text": "Đếm sinh viên đạt điểm ≥ 7"
+      },
+      {
+        "text": "Tìm sinh viên cuối cùng có điểm ≥ 7"
+      },
+      {
+        "text": "Sắp xếp sinh viên theo điểm"
+      }
+    ],
+    "answer": 0
+  },
+  {
+    "question": "142. Xét đoạn chương trình sau: Kết quả in ra là bao nhiêu?",
+    "options": [
+      {
+        "text": "700"
+      },
+      {
+        "text": "500"
+      },
+      {
+        "text": "-1"
+      },
+      {
+        "text": "800"
+      }
+    ],
+    "answer": 0
+  },
+  {
+    "question": "143. Xét đoạn chương trình sau: Kết quả in ra là bao nhiêu?",
+    "options": [
+      {
+        "text": "Banh socola---Keo lac---Hop mau"
+      },
+      {
+        "text": "Hop mau---Keo lac---Banh socola"
+      },
+      {
+        "text": "Keo lac---Hop mau---Banh socola---"
+      },
+      {
+        "text": "Keo lac---Banh socola---Hop mau"
+      }
+    ],
+    "answer": 0
+  },
+  {
+    "question": "144. Anh (Chị) hãy cho biết đoạn chương trình sau bị lỗi biên dịch ở dòng nào và do nguyên nhân gì? 1. class CRect { 2. int *height, *width; 3. public: 4. CRect (int, int); 5. ~CRect (); 6. int DT (void) { return (height * width); } 7. }; 8. CRect::CRect (int a, int b) { 9. height = new int; 10. width = new int; 11. *height = a; 12. *width = b; 13. } 14. CRect::~CRect() { 15. delete height; 16. delete width; 17. } 18. int main() { 19. CRect cn1 (3, 4); 20. cout << cn1.DT(); 21. return 0; 22. }",
+    "options": [
+      {
+        "text": "Dòng 9, 10 – Lỗi cấp phát động trong hàm tạo (constructor)."
+      },
+      {
+        "text": "Dòng 15, 16 – Lỗi giải phóng bộ nhớ trong hàm hủy (destructor)."
+      },
+      {
+        "text": "Dòng 6 – Lỗi do thực hiện phép nhân trực tiếp hai con trỏ thay vì nhân giá trị mà chúng trỏ tới."
+      },
+      {
+        "text": "Chương trình hoàn toàn không có lỗi."
+      }
+    ],
+    "answer": 0
+  },
+  {
+    "question": "145. Trong C++, nếu một hàm được khai báo friend trong nhiều lớp khác nhau thì điều gì đúng?",
+    "options": [
+      {
+        "text": "Hàm đó có thể truy cập thành phần private/ protected của tất cả các lớp đã khai báo friend."
+      },
+      {
+        "text": "Hàm đó trở thành thành viên chung của các lớp."
+      },
+      {
+        "text": "Hàm chỉ truy cập được lớp khai báo friend đầu tiên."
+      },
+      {
+        "text": "Hàm bắt buộc phải được định nghĩa bên trong lớp."
+      }
+    ],
+    "answer": 0
+  },
+  {
+    "question": "146. Phát biểu nào đúng về lớp bạn (friend class)?",
+    "options": [
+      {
+        "text": "Chỉ các hàm public của lớp bạn mới được truy cập."
+      },
+      {
+        "text": "Quan hệ friend có tính kế thừa tự động."
+      },
+      {
+        "text": "Một lớp chỉ được khai báo tối đa một lớp bạn."
+      },
+      {
+        "text": "Tất cả thành viên của lớp bạn đều có quyền truy cập private/protected của lớp cấp quyền."
+      }
+    ],
+    "answer": 0
+  },
+  {
+    "question": "147. Trong C++, thành viên hằng (const member) của lớp có đặc điểm gì?",
+    "options": [
+      {
+        "text": "Có thể gán giá trị nhiều lần trong hàm thành viên."
+      },
+      {
+        "text": "Tự động nhận giá trị 0."
+      },
+      {
+        "text": "Chỉ dùng được trong lớp abstract."
+      },
+      {
+        "text": "Phải được khởi tạo ngay khi tạo đối tượng và không thể thay đổi sau đó."
+      }
+    ],
+    "answer": 0
+  },
+  {
+    "question": "148. Nếu thay đổi giá trị của một biến thành viên tĩnh thông qua một đối tượng thì điều gì xảy ra?",
+    "options": [
+      {
+        "text": "Giá trị thay đổi ảnh hưởng đến mọi đối tượng của lớp."
+      },
+      {
+        "text": "Chỉ đối tượng đó thay đổi."
+      },
+      {
+        "text": "Các đối tượng khác nhận bản sao mới."
+      },
+      {
+        "text": "Chương trình báo lỗi runtime."
+      }
+    ],
+    "answer": 0
+  },
+  {
+    "question": "149. Cho đoạn chương trình sau: #include <string> using namespace std; class TaiKhoanNganHang { private: string soTaiKhoan; string chuTaiKhoan; double soDu; public: TaiKhoanNganHang(string stk, string ten, double tien) : soTaiKhoan(stk), chuTaiKhoan(ten), soDu(tien) {} friend class NhanVienNganHang; }; class NhanVienNganHang { public: void dieuChinhSoDu(TaiKhoanNganHang &tk) { tk.soDu = 1000000; } }; Trong đoạn chương trình trên, phát biểu nào đúng?",
+    "options": [
+      {
+        "text": "Chỉ các phương thức của lớp TaiKhoanNganHang mới có thể thay đổi soDu."
+      },
+      {
+        "text": "friend class NhanVienNganHang chỉ cho phép truy cập soTaiKhoan."
+      },
+      {
+        "text": "Chương trình lỗi biên dịch vì tham số truyền vào hàm là theo tham chiếu."
+      },
+      {
+        "text": "Hàm dieuChinhSoDu truy cập được soDu vì toàn bộ lớp NhanVienNganHang là friend của"
+      }
+    ],
+    "answer": 0
+  },
+  {
+    "question": "150. Cho đoạn chương trình sau: #include <iostream> #include <string> using namespace std; class TaiKhoanNganHang { private: string soTaiKhoan; double soDu; public: TaiKhoanNganHang(string stk, double tien) : soTaiKhoan(stk), soDu(tien) {} void hienThiThongTin() const { cout << \"Thong tin tai khoan\"; } }; Hàm hienThiThongTin()?",
+    "options": [
+      {
+        "text": "Là hàm tĩnh (static function)."
+      },
+      {
+        "text": "Là hàm bạn (friend function)."
+      },
+      {
+        "text": "Không thể được gọi thông qua đối tượng."
+      },
+      {
+        "text": "Không được phép thay đổi dữ liệu thành viên của đối tượng."
+      }
+    ],
+    "answer": 0
+  },
+  {
+    "question": "151. Cho đoạn chương trình sau: #include <iostream> #include <string> using namespace std; class TaiKhoanNganHang { private: string soTaiKhoan; string chuTaiKhoan; double soDu; public: TaiKhoanNganHang(string stk = \"0000\", string ten = \"KhachHang\", double tien = 5) : soTaiKhoan(stk), chuTaiKhoan(ten), soDu(tien) {} friend void dieuChinhSoDu(TaiKhoanNganHang&); }; void dieuChinhSoDu(TaiKhoanNganHang &tk) { tk.soDu = 20; } Sau khi thực hiện: TaiKhoanNganHang tk(\"123456\", \"Nguyen Van A\", 5); dieuChinhSoDu(tk); Giá trị của soDu là?",
+    "options": [
+      {
+        "text": "5"
+      },
+      {
+        "text": "123456"
+      },
+      {
+        "text": "Lỗi."
+      },
+      {
+        "text": "20"
+      }
+    ],
+    "answer": 0
+  },
+  {
+    "question": "152. Cho đoạn mã: #include <iostream> using namespace std; class NhanVien { private: string maNV, hoTen, phongBan; static int dem; public: NhanVien() { dem++; } static int getDem() { return dem; } }; int NhanVien::dem = 0; int main() { NhanVien a, b, c; cout << NhanVien::getDem(); } Kết quả là?",
+    "options": [
+      {
+        "text": "0"
+      },
+      {
+        "text": "3"
+      },
+      {
+        "text": "1"
+      },
+      {
+        "text": "Lỗi."
+      }
+    ],
+    "answer": 0
+  },
+  {
+    "question": "153. Cho đoạn chương trình: Kết quả của chương trình là?",
+    "options": [
+      {
+        "text": "(5, 10)"
+      },
+      {
+        "text": "(7, 12)"
+      },
+      {
+        "text": "(6, 11)"
+      },
+      {
+        "text": "Lỗi biên dịch."
+      }
+    ],
+    "answer": 0
+  },
+  {
+    "question": "154. Xét đoạn chương trình sau: Đoạn chương trình trên thực hiện chức năng gì?",
+    "options": [
+      {
+        "text": "Nạp chồng toán tử >> để nhập dữ liệu cho đối tượng NhanVien từ bàn phím."
+      },
+      {
+        "text": "Xây dựng hàm so sánh hai đối tượng NhanVien dựa trên thuộc tính lương."
+      },
+      {
+        "text": "Nạp chồng toán tử << để xuất thông tin của đối tượng NhanVien ra màn hình hoặc luồng dữ liệu."
+      },
+      {
+        "text": "Cập nhật và tăng lương cho nhân viên thông qua toán tử xuất dữ liệu."
+      }
+    ],
+    "answer": 0
+  },
+  {
+    "question": "155. Cho đoạn chương trình sau: Kết quả thực hiện chương trình là?",
+    "options": [
+      {
+        "text": "2/1"
+      },
+      {
+        "text": "3/2"
+      },
+      {
+        "text": "2/3"
+      },
+      {
+        "text": "Lỗi biên dịch."
+      }
+    ],
+    "answer": 0
+  },
+  {
+    "question": "156. Cho đoạn chương trình: Chương trình sai ở dòng nào?",
+    "options": [
+      {
+        "text": "Dòng 26"
+      },
+      {
+        "text": "Dòng 19"
+      },
+      {
+        "text": "Dòng 28"
+      },
+      {
+        "text": "Không có lỗi."
+      }
+    ],
+    "answer": 0
+  },
+  {
+    "question": "157. Từ khóa dùng để kế thừa lớp là?",
+    "options": [
+      {
+        "text": ":"
+      },
+      {
+        "text": "extends"
+      },
+      {
+        "text": "inherit"
+      },
+      {
+        "text": "super"
+      }
+    ],
+    "answer": 0
+  },
+  {
+    "question": "158. Trong C++, nếu lớp dẫn xuất không chỉ rõ kiểu kế thừa khi dùng class thì mặc định là?",
+    "options": [
+      {
+        "text": "private"
+      },
+      {
+        "text": "public"
+      },
+      {
+        "text": "protected"
+      },
+      {
+        "text": "virtual"
+      }
+    ],
+    "answer": 0
+  },
+  {
+    "question": "159. Trong thiết kế hệ thống lớn, lợi ích nổi bật của kế thừa là?",
+    "options": [
+      {
+        "text": "Dễ mở rộng và bảo trì mã nguồn."
+      },
+      {
+        "text": "Loại bỏ hoàn toàn lỗi runtime."
+      },
+      {
+        "text": "Tăng tốc độ CPU."
+      },
+      {
+        "text": "Không cần kiểm thử chương trình."
+      }
+    ],
+    "answer": 0
+  },
+  {
+    "question": "160. Trong C++, khi lớp SinhVien kế thừa public từ lớp Nguoi, điều nào sau đây đúng?",
+    "options": [
+      {
+        "text": "SinhVien có thể sử dụng các thành viên public/ protected của Nguoi theo quyền phù hợp."
+      },
+      {
+        "text": "SinhVien truy cập trực tiếp được mọi thành viên private của Nguoi"
+      },
+      {
+        "text": "Nguoi trở thành lớp dẫn xuất của SinhVien"
+      },
+      {
+        "text": "SinhVien không thể khai báo thêm thuộc tính mới."
+      }
+    ],
+    "answer": 0
+  },
+  {
+    "question": "161. Khi tạo đối tượng lớp dẫn xuất, thứ tự gọi constructor là?",
+    "options": [
+      {
+        "text": "Constructor lớp dẫn xuất trước, sau đó đến lớp cơ sở."
+      },
+      {
+        "text": "Gọi đồng thời cả hai constructor."
+      },
+      {
+        "text": "Constructor lớp cơ sở trước, sau đó đến constructor lớp dẫn xuất."
+      },
+      {
+        "text": "Tùy trình biên dịch quyết định."
+      }
+    ],
+    "answer": 0
+  },
+  {
+    "question": "162. Khai báo nào đúng về lớp cơ sở ảo?",
+    "options": [
+      {
+        "text": "class B : public virtual {};"
+      },
+      {
+        "text": "class B virtual : public A {};"
+      },
+      {
+        "text": "class B : virtual public A {};"
+      },
+      {
+        "text": "class B : A virtual public {};"
+      }
+    ],
+    "answer": 0
+  },
+  {
+    "question": "163. Trong hệ thống quản lý xe: class PhuongTien { public: string maPT; int namSX; }; class OTo : private PhuongTien { public: string hangXe; }; Phát biểu nào sau đây là đúng?",
+    "options": [
+      {
+        "text": "maPT vẫn là public trong OTo"
+      },
+      {
+        "text": "OTo không kế thừa PhuongTien"
+      },
+      {
+        "text": "namSX trở thành protected trong main()"
+      },
+      {
+        "text": "Không thể truy cập trực tiếp maPT qua đối tượng OTo"
+      }
+    ],
+    "answer": 0
+  },
+  {
+    "question": "164. Trong hệ thống bán hàng: class SanPham { protected: string maSP; double gia; }; class DienThoai : public SanPham { public: void set(){ maSP = \"DT01\"; } }; Phát biểu nào sau đây là đúng?",
+    "options": [
+      {
+        "text": "maSP chỉ dùng trong main()"
+      },
+      {
+        "text": "DienThoai truy cập được maSP trong hàm thành viên."
+      },
+      {
+        "text": "maSP là private trong DienThoai"
+      },
+      {
+        "text": "Không thể kế thừa SanPham"
+      }
+    ],
+    "answer": 0
+  },
+  {
+    "question": "165. Đoạn chương trình sau thực hiện chức năng gì?",
+    "options": [
+      {
+        "text": "Tìm kiếm đơn hàng theo tên khách hàng trong danh sách."
+      },
+      {
+        "text": "Thêm đơn hàng mới vào danh sách."
+      },
+      {
+        "text": "Tính tổng tiền tất cả đơn hàng."
+      },
+      {
+        "text": "Tìm kiếm đơn hàng theo mã đơn trong danh sách."
+      }
+    ],
+    "answer": 0
+  },
+  {
+    "question": "166. Đoạn chương trình sau thực hiện chức năng gì?",
+    "options": [
+      {
+        "text": "Tính tổng số tiền của tất cả các đơn hàng."
+      },
+      {
+        "text": "Lọc và đếm riêng các đơn hàng thuộc loại Online."
+      },
+      {
+        "text": "Đếm tổng số lượng đơn hàng hiện có bên trong danh sách."
+      },
+      {
+        "text": "Sắp xếp các đơn hàng trong danh sách."
+      }
+    ],
+    "answer": 0
+  },
+  {
+    "question": "167. Chương trình sau in ra kết quả gì?",
+    "options": [
+      {
+        "text": "DH01-An-500000- HN-GHTK-Dang giao"
+      },
+      {
+        "text": "HN-GHTK-Dang giao"
+      },
+      {
+        "text": "DH01-An-500000"
+      },
+      {
+        "text": "Lỗi biên dịch"
+      }
+    ],
+    "answer": 0
+  },
+  {
+    "question": "168. Xét đoạn chương trình sau: Đoạn chương trình trên báo lỗi ở dòng nào?",
+    "options": [
+      {
+        "text": "Dòng 6"
+      },
+      {
+        "text": "Dòng 21"
+      },
+      {
+        "text": "Dòng 13"
+      },
+      {
+        "text": "Dòng 15"
+      }
+    ],
+    "answer": 0
+  },
+  {
+    "question": "169. Xét đoạn chương trình sau: Kết quả thực hiện đoạn chương trình là?",
+    "options": [
+      {
+        "text": "Huy Don HangHuy Offline"
+      },
+      {
+        "text": "Huy Don Hang"
+      },
+      {
+        "text": "Huy OfflineHuy Don Hang"
+      },
+      {
+        "text": "Huy Offline"
+      }
+    ],
+    "answer": 0
+  },
+  {
+    "question": "170. Xét đoạn chương trình sau: Nguyên nhân khiến chương trình không gọi được hàm của lớp dẫn xuất là?",
+    "options": [
+      {
+        "text": "Dòng 24"
+      },
+      {
+        "text": "Dòng 12"
+      },
+      {
+        "text": "Dòng 30"
+      },
+      {
+        "text": "Dòng 1"
+      }
+    ],
+    "answer": 0
+  },
+  {
+    "question": "171. Xét đoạn chương trình sau: Chương trình báo lỗi dòng nào?",
+    "options": [
+      {
+        "text": "Dòng 12"
+      },
+      {
+        "text": "Dòng 23"
+      },
+      {
+        "text": "Dòng 24"
+      },
+      {
+        "text": "Dòng 25"
+      }
+    ],
+    "answer": 0
+  },
+  {
+    "question": "172. Xét đoạn chương trình sau: Kết quả thực hiện chương trình là?",
+    "options": [
+      {
+        "text": "Lỗi mơ hồ (ambiguous call)."
+      },
+      {
+        "text": "A"
+      },
+      {
+        "text": "B"
+      },
+      {
+        "text": "AB"
+      }
+    ],
+    "answer": 0
+  },
+  {
+    "question": "173. Đa hình trong lập trình hướng đối tượng là gì?",
+    "options": [
+      {
+        "text": "Khả năng đóng gói dữ liệu."
+      },
+      {
+        "text": "Khả năng kế thừa dữ liệu."
+      },
+      {
+        "text": "Khả năng cùng một lời gọi hàm có thể thực hiện các hành động khác nhau."
+      },
+      {
+        "text": "Khả năng bảo vệ dữ liệu."
+      }
+    ],
+    "answer": 0
+  },
+  {
+    "question": "174. Ý nghĩa quan trọng nhất của lớp trừu tượng trong thiết kế phần mềm là gì?",
+    "options": [
+      {
+        "text": "Giảm kích thước chương trình thực thi."
+      },
+      {
+        "text": "Cho phép truy cập trực tiếp dữ liệu của lớp dẫn xuất."
+      },
+      {
+        "text": "Xây dựng khuôn mẫu chung bắt buộc các lớp dẫn xuất phải tuân theo."
+      },
+      {
+        "text": "Tăng tốc độ biên dịch chương trình."
+      }
+    ],
+    "answer": 0
+  },
+  {
+    "question": "175. Một lớp cơ sở khai báo hàm draw() là hàm ảo. Nhiều lớp dẫn xuất cài đặt lại hàm này. Nếu bỏ từ khóa virtual khỏi lớp cơ sở, ảnh hưởng lớn nhất là gì?",
+    "options": [
+      {
+        "text": "Các lớp dẫn xuất không thể ghi đè hàm draw()"
+      },
+      {
+        "text": "Đa hình động không còn hoạt động khi gọi qua con trỏ hoặc tham chiếu lớp cơ sở."
+      },
+      {
+        "text": "Chương trình không thể biên dịch."
+      },
+      {
+        "text": "Hàm draw() trở thành hàm thuần ảo."
+      }
+    ],
+    "answer": 0
+  },
+  {
+    "question": "178. Xét đoạn chương trình sau: class Product{ public: virtual double price() = 0; }; class Laptop : public Product{ public: double price(){ return 1500; } }; Phát biểu nào đúng?",
+    "options": [
+      {
+        "text": "Có thể tạo đối tượng Laptop."
+      },
+      {
+        "text": "Không thể tạo đối tượng Laptop."
+      },
+      {
+        "text": "Product không phải lớp trừu tượng."
+      },
+      {
+        "text": "price() không phải hàm thuần ảo."
+      }
+    ],
+    "answer": 0
+  },
+  {
+    "question": "179. Xét đoạn chương trình sau: #include <iostream> using namespace std; class Hinh{ public: virtual int tinhDienTich(){ return 0; } }; class HinhVuong : public Hinh{ int a; public: int tinhDienTich(){ return a*a; } }; int main() { HinhVuong s; Hinh obj = s; cout << obj.tinhDienTich(); } Kết quả khi chạy chương trình là?",
+    "options": [
+      {
+        "text": "0"
+      },
+      {
+        "text": "25"
+      },
+      {
+        "text": "Lỗi"
+      },
+      {
+        "text": "Không xác định."
+      }
+    ],
+    "answer": 0
+  },
+  {
+    "question": "180. Xét đoạn chương trình sau: class Animal{ public: virtual void sound() = 0; }; class Dog : public Animal{ }; Dòng lệnh nào gây lỗi nếu chạy từ hàm main()?",
+    "options": [
+      {
+        "text": "Animal *p;"
+      },
+      {
+        "text": "Dog *p;"
+      },
+      {
+        "text": "Animal *q = NULL;"
+      },
+      {
+        "text": "Dog d;"
+      }
+    ],
+    "answer": 0
+  },
+  {
+    "question": "181. Xét đoạn chương trình sau: Kết quả hiển thị là gì?",
+    "options": [
+      {
+        "text": "D"
+      },
+      {
+        "text": "A"
+      },
+      {
+        "text": "H"
+      },
+      {
+        "text": "Lỗi"
+      }
+    ],
+    "answer": 0
+  },
+  {
+    "question": "182. Xét đoạn chương trình sau: class Hinh{ public: virtual float tinhDienTich() = 0; }; class HinhVuong : public Hinh{ float a; public: float tinhDienTich(){ return a*a; } }; int main(){ Hinh h; // (1) HinhVuong hv; Hinh *p = &hv; cout << p->tinhDienTich(); // (2) } Dòng lệnh nào báo lỗi?",
+    "options": [
+      {
+        "text": "(1)"
+      },
+      {
+        "text": "(2)"
+      },
+      {
+        "text": "Không có lỗi."
+      },
+      {
+        "text": "Cả (1) và (2)"
+      }
+    ],
+    "answer": 0
+  },
+  {
+    "question": "185. Trong C++, vì sao template được coi là cơ chế đa hình tại thời điểm biên dịch “compile-time polymorphism”?",
+    "options": [
+      {
+        "text": "Vì template chạy đa hình tại thời gian chạy giống virtual function."
+      },
+      {
+        "text": "Vì template chỉ hoạt động với kiểu int và float."
+      },
+      {
+        "text": "Vì template làm giảm kích thước chương trình."
+      },
+      {
+        "text": "Vì trình biên dịch sinh ra các phiên bản hàm/ lớp cụ thể cho từng kiểu dữ liệu khi biên dịch."
+      }
+    ],
+    "answer": 0
+  },
+  {
+    "question": "186. Sự khác nhau quan trọng nhất giữa template và nạp chồng hàm (function overloading) là gì?",
+    "options": [
+      {
+        "text": "Template cho phép sinh mã tự động cho nhiều kiểu dữ liệu từ một định nghĩa chung, còn"
+      },
+      {
+        "text": "Overloading luôn nhanh hơn template vì không sinh mã bổ sung."
+      },
+      {
+        "text": "Template chỉ dùng cho lớp, còn overloading chỉ dùng cho hàm."
+      },
+      {
+        "text": "Template và overloading hoàn toàn không có sự khác biệt."
+      }
+    ],
+    "answer": 0
+  },
+  {
+    "question": "187. Điều gì xảy ra khi một ngoại lệ (exception) được throw nhưng không có khối catch nào xử lý phù hợp?",
+    "options": [
+      {
+        "text": "Chương trình gọi std::terminate() và kết thúc."
+      },
+      {
+        "text": "Ngoại lệ tự động bị bỏ qua và chương trình tiếp tục chạy."
+      },
+      {
+        "text": "Chương trình tiếp tục chạy bình thường sau khi bỏ qua lỗi."
+      },
+      {
+        "text": "Ngoại lệ được chuyển thành cảnh báo (warning)."
+      }
+    ],
+    "answer": 0
+  },
+  {
+    "question": "188. Điều nào đúng nhất về cơ chế exception handling trong C++?",
+    "options": [
+      {
+        "text": "Exception thay thế hoàn toàn các câu lệnh điều kiện if."
+      },
+      {
+        "text": "Exception chỉ được sử dụng để xử lý lỗi logic trong chương trình."
+      },
+      {
+        "text": "Exception không liên quan đến quá trình thực thi (runtime) của chương trình."
+      },
+      {
+        "text": "Exception cho phép tách biệt luồng xử lý lỗi khỏi luồng logic chính, giúp chương trình xử lý lỗi có"
+      }
+    ],
+    "answer": 0
+  },
+  {
+    "question": "191. Xét đoạn chương trình sau: #include <iostream> using namespace std; template <typename T> T func(T a, T b){ return a > b ? a : b; } int main(){ cout << func(2, 3.5); } Kết quả khi biên dịch chương trình là gì?",
+    "options": [
+      {
+        "text": "Lỗi vì không thể suy diễn được một kiểu dữ liệu T thống nhất cho cả hai tham số."
+      },
+      {
+        "text": "3.5"
+      },
+      {
+        "text": "3"
+      },
+      {
+        "text": "2"
+      }
+    ],
+    "answer": 0
+  },
+  {
+    "question": "192. Xét đoạn chương trình sau: #include <iostream> using namespace std; template<typename T, int size> class MyArray { T arr[size]; public: int getSize() { return size; } }; int main() { MyArray<int, 10> a; cout << a.getSize(); } Kết quả in ra màn hình là gì?",
+    "options": [
+      {
+        "text": "10"
+      },
+      {
+        "text": "Lỗi biên dịch."
+      },
+      {
+        "text": "Không in ra gì."
+      },
+      {
+        "text": "Giá trị không xác định."
+      }
+    ],
+    "answer": 0
+  },
+  {
+    "question": "193. Xét đoạn chương trình sau: #include <iostream> using namespace std; int main() { double soDu = 900000; double soTienRut = 950000; try { if(soTienRut > soDu) throw soTienRut; soDu -= soTienRut; cout << soDu; } catch(int x) { cout << \"Loi\"; } } Kết quả khi chạy chương trình là gì?",
+    "options": [
+      {
+        "text": "Loi"
+      },
+      {
+        "text": "terminate called after throwing an instance of ‘double’"
+      },
+      {
+        "text": "-50000"
+      },
+      {
+        "text": "900000"
+      }
+    ],
+    "answer": 0
+  },
+  {
+    "question": "194. Xét đoạn chương trình sau: #include <iostream> using namespace std; void kiemTraRutTien(double soTienRut){ try{ if((int)soTienRut % 50000 != 0) throw \"Sai menh gia\"; } catch(const char* loi){ cout << loi; throw; } } int main() { try{ kiemTraRutTien(125000); } catch(const char* loi){ cout << \" - Giao dich that bai\"; } } Kết quả in ra màn hình là gì?",
+    "options": [
+      {
+        "text": "Sai menh gia - Giao dich that bai"
+      },
+      {
+        "text": "Giao dich that bai"
+      },
+      {
+        "text": "Sai menh gia"
+      },
+      {
+        "text": "Lỗi biên dịch."
+      }
+    ],
+    "answer": 0
+  },
+  {
+    "question": "195. Xét đoạn chương trình sau: 1. #include <iostream> 2. using namespace std; 3. 4. int main() { 5. double soTienRut = 125000; 6. 7. try { 8. if((int)soTienRut % 50000 != 0) 9. throw \"Sai menh gia\"; 10. 11. cout << \"Hop le\"; 12. } 13. catch(const char* loi) { 14. cout << loi; 15. } 16. } Đoạn chương trình trên sai ở dòng nào?",
+    "options": [
+      {
+        "text": "Dòng 13"
+      },
+      {
+        "text": "Dòng 8"
+      },
+      {
+        "text": "Dòng 11"
+      },
+      {
+        "text": "Không sai dòng nào."
+      }
+    ],
+    "answer": 0
+  },
+  {
+    "question": "196. Xét đoạn chương trình sau: Kết quả của chương trình là?",
+    "options": [
+      {
+        "text": "Loi so: -1"
+      },
+      {
+        "text": "0"
+      },
+      {
+        "text": "Loi khong xac dinh"
+      },
+      {
+        "text": "Khong tim thay"
+      }
+    ],
+    "answer": 0
+  },
+  {
+    "question": "197. Xét đoạn chương trình sau: #include <iostream> #include <stdexcept> using namespace std; void ketNoiCSDL() { throw runtime_error(\"Khong the ket noi CSDL\"); } void chuyenTien() { ketNoiCSDL(); cout << \"Chuyen tien thanh cong\\n\"; } int main() { try { chuyenTien(); } catch (const exception& e) { cout << \"Ghi log loi: \" << e.what() << endl; } } Phát biểu nào giải thích đúng nhất lý do sử dụng cơ chế throw và try-catch trong trường hợp này?",
+    "options": [
+      {
+        "text": "Có thể thay thế hoàn toàn throw và try-catch bằng vòng lặp while để chương trình tự xử lý mọi lỗi"
+      },
+      {
+        "text": "Khi lỗi xảy ra trong ketNoiCSDL(), ngoại lệ được lan truyền lên main() để xử lý tập trung, giúp các"
+      },
+      {
+        "text": "Có thể thay thế hoàn toàn throw bằng nhiều câu lệnh if mà không ảnh hưởng đến thiết kế hoặc"
+      },
+      {
+        "text": "Cơ chế try-catch chủ yếu được sử dụng để tăng tốc độ thực thi của chương trình."
+      }
+    ],
+    "answer": 0
+  },
+  {
+    "question": "198. Xét đoạn chương trình sau: Kết quả của chương trình là?",
+    "options": [
+      {
+        "text": "E999"
+      },
+      {
+        "text": "E0"
+      },
+      {
+        "text": "E-1"
+      },
+      {
+        "text": "OTHER"
+      }
+    ],
+    "answer": 0
+  },
+  {
+    "question": "199. Xét đoạn chương trình sau: Ý nghĩa của đoạn chương trình là?",
+    "options": [
+      {
+        "text": "Luôn báo lỗi EMPTY."
+      },
+      {
+        "text": "Không tìm được phần tử 7."
+      },
+      {
+        "text": "Tìm phần tử trong mảng và có xử lý ngoại lệ khi mảng rỗng hoặc không tìm thấy phần tử."
+      },
+      {
+        "text": "Chỉ hoạt động với mảng rỗng."
+      }
+    ],
+    "answer": 0
+  },
+  {
+    "question": "200. Đoạn phát biểu nào dưới đây mô tả đúng cơ chế xử lý ngoại lệ (exception handling) trong C++?",
+    "options": [
+      {
+        "text": "Ngoại lệ được phát sinh bằng catch và được xử lý bởi throw."
+      },
+      {
+        "text": "Ngoại lệ được phát sinh bằng throw và được xử lý bởi khối catch."
+      },
+      {
+        "text": "Template chỉ được sử dụng trong xử lý ngoại lệ."
+      },
+      {
+        "text": "Một chương trình C++ không thể có nhiều khối catch."
+      }
+    ],
+    "answer": 0
+  }
+]

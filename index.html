@@ -1,0 +1,100 @@
+<!doctype html>
+<html lang="vi">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width,initial-scale=1" />
+    <title>Quiz Game - CSDL 4TC</title>
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <div class="container">
+      <!-- LEFT PANEL: INFO & QUESTION -->
+      <div class="sidebar-left">
+        <div class="sidebar-header">
+          <h1>Thông tin</h1>
+        </div>
+        <div class="info-box">
+          <div class="info-item">
+            <label>Môn học</label>
+            <div class="info-value">CSDL 4TC</div>
+          </div>
+          <div class="info-item">
+            <label>Chế độ</label>
+            <div class="info-value">Nhóm A</div>
+          </div>
+          <div class="info-item">
+            <label>Tổng câu</label>
+            <div class="info-value"><span id="totalQ">182</span></div>
+          </div>
+        </div>
+
+        <div class="timer-box">
+          <h3>⏱️ Thời gian</h3>
+          <div class="timer-display" id="timerValue">00:10</div>
+          <div style="text-align:center; font-size:12px; color:#999">THỜI GIAN LÀM BÀI</div>
+        </div>
+
+        <div class="settings-box">
+          <label class="setting-item">
+            <input type="checkbox" id="soundToggle" checked />
+            <span>Âm thanh</span>
+          </label>
+          <label class="setting-item">
+            <input type="checkbox" id="themeToggle" />
+            <span>Tự động chuyển câu</span>
+          </label>
+        </div>
+
+        <button id="restartBtn" class="btn-restart">
+          🔄 Làm lại từ đầu
+        </button>
+        <div style="text-align:center; margin-top:16px">
+          <a href="#" style="color:#999; font-size:12px">← Trở về</a>
+        </div>
+      </div>
+
+      <!-- MAIN AREA: QUESTION -->
+      <div class="main-content">
+        <div class="question-header">
+          <h2 id="questionTitle">Câu 1 / 60</h2>
+          <div style="float:right">Nhóm A - Câu 1</div>
+        </div>
+
+        <section id="quiz-area" class="question-area">
+          <!-- Questions rendered by JS -->
+        </section>
+
+        <div class="actions">
+          <button id="prevBtn" class="btn" disabled>← Quay lại</button>
+          <button id="nextBtn" class="btn">Tiếp theo →</button>
+          <button id="submitBtn" class="btn primary" style="display:none">Nộp bài</button>
+        </div>
+      </div>
+
+      <!-- RIGHT PANEL: QUESTIONS LIST -->
+      <div class="sidebar-right">
+        <div class="sidebar-header">
+          <h3 style="margin:0; font-size:14px;">Mục lục câu hỏi</h3>
+        </div>
+        <div id="questions-grid" class="questions-grid">
+          <!-- Question buttons rendered by JS -->
+        </div>
+      </div>
+    </div>
+
+    <!-- RESULT MODAL -->
+    <div id="result" class="result modal" style="display:none">
+      <div class="result-card">
+        <h2>📊 Kết quả</h2>
+        <p id="scoreText">Bạn đạt: 0 / 0</p>
+        <div id="wrongList" class="wrong-list"></div>
+        <div class="result-actions">
+          <button id="retryBtn" class="btn primary">Làm lại</button>
+          <button id="reviewBtn" class="btn">Xem lại câu sai</button>
+        </div>
+      </div>
+    </div>
+
+    <script src="app.js"></script>
+  </body>
+</html>
