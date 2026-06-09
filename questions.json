@@ -3275,4 +3275,106 @@
     ],
     "answer": 1
   }
+  ,
+  {
+    "question": "113. Trong tệp nhị phân, hàm nào được dùng để ghi một khối dữ liệu từ bộ nhớ vào tệp?",
+    "options": [
+      { "text": "write()" },
+      { "text": "print()" },
+      { "text": "save()" },
+      { "text": "read()" }
+    ],
+    "answer": 0
+  },
+  {
+    "question": "114. Sự khác biệt cơ bản nhất giữa tệp văn bản và tệp nhị phân là gì?",
+    "options": [
+      { "text": "Tệp văn bản chỉ lưu một kiểu dữ liệu." },
+      { "text": "Tệp văn bản lưu kí tự (ASCII/Unicode), tệp nhị phân lưu dữ liệu dạng chuỗi byte nguyên tắm." },
+      { "text": "Tệp nhị phân luôn lớn hơn tệp văn bản." },
+      { "text": "Tệp văn bản không cần dùng đó khoảng trắng." }
+    ],
+    "answer": 1
+  },
+  {
+    "question": "115. Mục đích chuyên chế ios::end trong hàm seekg() hoặc seekp() có ý nghĩa là gì?",
+    "options": [
+      { "text": "Tính từ đầu tệp." },
+      { "text": "Tính từ vị trí hiện tại." },
+      { "text": "Tính từ vị trị cuối tệp." },
+      { "text": "Không xác định." }
+    ],
+    "answer": 2
+  },
+  {
+    "question": "116. Lệnh fseek(10, ios::cur) thực hiện công việc gì?",
+    "options": [
+      { "text": "Di chuyển con trỏ đọc tiến 10 byte từ đầu tệp." },
+      { "text": "Di chuyển con trỏ đọc lùi 10 byte từ vị trí hiện tại." },
+      { "text": "Di chuyển con trỏ đọc tiến 10 byte từ vị trí hiện tại." },
+      { "text": "Di chuyển con trỏ đọc đến byte thứ 10 cuối cùng." }
+    ],
+    "answer": 2
+  },
+  {
+    "question": "117. Khi mở tệp bằng ofstream mà không chỉ định chế độ, nếu tệp đã tồn tại thì tệp sẽ được xử lý như thế nào?",
+    "options": [
+      { "text": "Bỏ qua lần mở tiếp theo." },
+      { "text": "Xóa toàn bộ nội dung cũ và ghi mới." },
+      { "text": "Thêm dữ liệu vào cuối tệp." },
+      { "text": "Báo lỗi và không mở tệp." }
+    ],
+    "answer": 1
+  },
+  {
+    "question": "118. Để mở tệp tin songuyen.txt nằm trong thư mục baitap để đọc dữ liệu, lệnh nào sau đây là đúng?",
+    "options": [
+      { "text": "fstream myFile(\"baitap/songuyen.txt\", ios::out);" },
+      { "text": "ifstream myFile(\"baitap/songuyen.txt\", ios::out);" },
+      { "text": "ofstream myFile(\"baitap\\\\songuyen.txt\", ios::in);" },
+      { "text": "fstream myFile(\"baitap\\\\songuyen.txt\", ios::in);" }
+    ],
+    "answer": 3
+  },
+  {
+    "question": "119. Xét đoạn chương trình sau (giả sử tệp vidu.txt có độ kí tự): ifstream myFile(\"vidu.txt\", ios::in); if(myFile) { myFile.seekg(sizeof(char)*5, ios::beg); myFile.seekg(sizeof(char)*5, ios::cur); cout<<myFile.tellg(); } Chương trình sẽ in ra kết quả là bao nhiêu?",
+    "options": [
+      { "text": "5" },
+      { "text": "0" },
+      { "text": "80" },
+      { "text": "10" }
+    ],
+    "answer": 3
+  },
+  {
+    "question": "122. Xét đoạn mã sau: while (f >> x) { tong += x; if (x > maxx) maxx = x; } Điều kiện kết thúc vòng lặp (f >> x) trả về false khi nào?",
+    "options": [
+      { "text": "Đã đọc hết dữ liệu tệp (EOF) hoặc gặp dữ liệu không tương thích." },
+      { "text": "Gặp số âm." },
+      { "text": "Gặp số chẵn." },
+      { "text": "Giá trị của x bằng 0." }
+    ],
+    "answer": 0
+  },
+  {
+    "question": "123. Cho tệp input.txt có nội dung: Van 20 Huyen 21 Vui 22 Đoạn mã sau thực hiện công việc gì? ifstream file(\"input.txt\"); string name; int age; while (file >> name >> age) { cout << name << \" - \" << age << endl; }",
+    "options": [
+      { "text": "In ra màn hình toàn bộ nội dung của tệp bao gồm cả tên và số tuổi của từng người." },
+      { "text": "In ra tên của từng người phân tách bằng khoảng trắng." },
+      { "text": "Chỉ in ra số tuổi của các người trong tệp." },
+      { "text": "Gây ra lỗi vì không thể đọc hai biến khác kiểu từ cùng một dòng." }
+    ],
+    "answer": 0
+  },
+  {
+    "question": "124. Cho hàm ghi file sau: void ghiFile(char tenFile[], NhanVien ds[], int n) { ofstream f(tenFile, ios::binary); if (!f) { cout << \"Khong mo duoc file\\n\"; return; } f.write((char*)&n, sizeof(int)); f.write((char*)ds, n * sizeof(NhanVien)); f.close(); } Dòng lệnh f.write((char*)&ds[i], sizeof(NhanVien)); có ý nghĩa gì?",
+    "options": [
+      { "text": "Ghi thông tin của nhân viên dưới dạng chuỗi kí tự vào tệp." },
+      { "text": "Chỉ ghi địa chỉ nhân viên vào tệp." },
+      { "text": "Ghi trực tiếp toàn bộ mảng vùng nhớ chứa n nhân viên xuống tệp nhị phân một cách nhanh chóng." },
+      { "text": "Ghi từng byte của nhân viên thứ i vào tệp nhị phân." }
+    ],
+    "answer": 2
+  }
+  
 ]
