@@ -177,7 +177,7 @@
         "text": "In số 12 trong vùng rộng 5 kí tự."
       }
     ],
-    "answer": 0
+    "answer": 3
   },
   {
     "question": "11. Kết quả của chương trình sau là gì? #include <iostream> using namespace std; int main() { char ch = 66; cout << ch; return 0; }",
